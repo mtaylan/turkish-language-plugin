@@ -1,0 +1,1288 @@
+{
+    "dateTimeFormats": {
+        "short": {
+            "year": "numeric",
+            "month": "short",
+            "day": "numeric"
+        },
+        "long": {
+            "year": "numeric",
+            "month": "short",
+            "day": "numeric",
+            "weekday": "short",
+            "hour": "numeric",
+            "minute": "numeric"
+        },
+        "shortTime": {
+            "hour": "numeric",
+            "minute": "numeric"
+        }
+    },
+    "numberFormats": {
+        "currency": {
+            "style": "currency",
+            "currency": "EUR",
+            "currencyDisplay": "symbol"
+        }
+    },
+    "messages": {
+        "COMMON": {
+            "ADAPTER": "Adaptör",
+            "ADDRESS": "Adres",
+            "ALL": "Hepsi",
+            "APP_NAME": "Solar Masaüstü Cüzdanı",
+            "APP_NAME_SHORT": "Solar Masaüstü",
+            "APPEARANCE": "Görünüm",
+            "AVATAR": "Avatar",
+            "ARK": "Solar",
+            "BACK": "Geri",
+            "BACKGROUND": "Arka Plan",
+            "BIP39_LANGUAGE": "Parola Dili (BIP39)",
+            "CATEGORY": "Kategori",
+            "CONFIRM": "Onayla",
+            "CURRENCY": "Para Birimi",
+            "DATE": "Tarih",
+            "DELEGATE": "Delege",
+            "DESKTOP_WALLET": "Masaüstü Cüzdanı",
+            "DONE": "Yapıldı",
+            "ENABLE_ADVANCED_MODE": "Bu özelliği kullanmak için Gelişmiş Modu etkinleştirin",
+            "FAILED_UPDATE": "Güncellenemedi '{name}'. Sebep: {reason}",
+            "FAILED_FETCH": "Getirilemedi {name}. Sebep: '{msg}'.",
+            "FETCH": "Getir",
+            "FILTER_BLACKLISTED_PLUGINS": "Kara liste uygula",
+            "FINISH": "Bitir",
+            "HIDE_WALLET_BUTTON_TEXT": "Cüzdan düğmelerindeki metni gizle",
+            "INITIALIZING": "Başlatılıyor...",
+            "NO_INTERNET_CONNECTION": "Initialization is taking longer than expected. Please check your internet connectivity.",
+            "INTERNET_STATUS": {
+                "NO_INTERNET_CONNECTION": "No internet connection. Please check your internet connectivity!",
+                "WITH_INTERNET_CONNECTION": "Internet connectivity established!"
+            },
+            "IS_MARKET_CHART_ENABLED": "Kontrol panelindeki fiyat tablosu",
+            "LANGUAGE": "Uygulama Dili",
+            "LEDGER": "Ledger",
+            "LEDGER_WALLET": "Bu bir Ledger cüzdanıdır",
+            "LOAD": "Yük",
+            "NETWORK": "Ağ",
+            "NETWORK_NAME": "Bu isim ağ tarafından sağlanıyor",
+            "NEXT": "Sonraki",
+            "NOT": "değil",
+            "OF": "ile ilgili",
+            "OTHER": "Diğer",
+            "PREV": "Önceki",
+            "PRICE_PROVIDER": "Fiyat Sağlayıcı",
+            "PROFILE_NAME": "Profil Adı",
+            "REMOVE": "Kaldır",
+            "SAVE": "Kaydet",
+            "SIZE": "Boyut",
+            "SKIP": "Atla",
+            "START": "Başlat",
+            "THEME": "Tema",
+            "THEMES": {
+                "LIGHT": "Varsayılan: Açık",
+                "DARK": "Varsayılan: Koyu"
+            },
+            "TIME_FORMAT": "Zaman biçimi",
+            "URL": "URL",
+            "VERIFIED_ADDRESS": "Bu doğrulanmış bir adres",
+            "VERSION": "Sürüm",
+            "WARNING": "Uyarı",
+            "WILL": "irade",
+            "WALLET": "Cüzdan",
+            "X_OF_Y": "{0} / {1}",
+            "ADVANCED_MODE": "Gelişmiş Mod",
+            "DEFAULT_CHOSEN_FEE": "Varsayılan komisyon ücret türü"
+        },
+        "ANNOUNCEMENTS": {
+            "LATEST_NEWS": "Son Haberler",
+            "READ_MORE": "Daha fazlasını okuyun",
+            "ALL_READ": "Tümünü okundu olarak işaretle"
+        },
+        "INTRODUCTION": {
+            "WELCOME": {
+                "TITLE": "{APP}'a Hoş Geldiniz",
+                "SAFETY_MESSAGE": "Lütfen kendi güvenliğiniz için sonraki birkaç ekranı okumak için birkaç dakikanızı ayırın.",
+                "FUNDS_WARNING": "Bu uyarılara dikkat etmezseniz paranız geri alınamayabilir.."
+            },
+            "POWER": {
+                "TITLE": "Gücünüz",
+                "FINANCE": "Kullanıcıların kripto para birimleri hakkında bilmesi gereken en önemli şey, finansın nasıl çalıştığına dair yaygın olarak kabul edilen modeli tamamen tersine çevirmeleridir.",
+                "BANKS": "Geleneksel finansta paranızın doğrudan kontrolünü bir bankaya bırakıyorsunuz. Bankalar paranız üzerinde kontrole sahip oldukları için sizin adınıza işlemlerin iadesi, giriş bilgilerinizin sıfırlanması gibi işlemleri yapabilirler.",
+                "CRYPTO": "Kripto para birimleri bu gücü alır ve doğrudan size verir. Parolanızdan başka bir şey kullanmadan paranızın ne zaman, nerede ve nasıl tutulacağını ve harcanacağını tam olarak kontrol edebilirsiniz.",
+                "RESPONSIBILITY": "Ancak, Ben Parker Amca'nın söylediği gibi, büyük güç büyük sorumluluk getirir."
+            },
+            "DUTY": {
+                "TITLE": "Göreviniz",
+                "CONTROL": "Blockzincir endüstrisi sansüre dayanıklı olacak şekilde inşa edilmiştir. Bu, hesabınızı sizden başka kimsenin kontrol edemeyeceği anlamına gelir. Bu tasarım, hiçbir merkezi otoritenin fonlarınıza herhangi bir zamanda el koyamayacağı, donduramayacağı veya paranızı manipüle edemeyeceği konusunda gönül rahatlığı sağlar. Ayrıca kişisel verilerin veya fonların saldırıya uğraması için merkezi bir konum da yoktur.",
+                "OWNER": "Bu aynı zamanda hesap sahibi olarak size daha fazla sorumluluk getirir.",
+                "WARNING": {
+                    "ACCOUNT": "Geleneksel banka hesabınızın aksine {CANNOT_RESTORE}",
+                    "CANNOT_RESTORE": "kayıp şifreler, anahtar kelimeleriniz veya çalınan fonlarınız; delegeler, Solar ekibi veya başka biri tarafından bulunamaz"
+                },
+                "SECURITY": "Hesabınızın güvenliği tamamen size bağlıdır."
+            },
+            "RESPONSIBILITY": {
+                "TITLE": "Sorumluluğunuz",
+                "STORAGE": {
+                    "EXPLANATION": "Her cüzdan adresinin {PASSPHRASE}'i işlemleri imzalayabilir ve para transfer edebilir. Bu, bilgisayarınıza birşey olursa ama anahtar kelimeleriniz sizdeyse, paranıza yine de erişebilirsiniz demektir. Solar Desktop Cüzdan'ın size izin veren ek bir özelliği vardır. daha kolay yönetim için bir {ENCRYPTED} de ayarlayın. Bilgisayarınız ölürse, farklı bir makineden fonlarınıza erişmek için şifrelenmiş parolayı kullanamazsınız. {NEED}.",
+                    "PASSPHRASE": "Anahtar kelimeler",
+                    "ENCRYPTED": "şifrelenmiş şifre",
+                    "NEED": "Anahtar kelimelere ihtiyacınız olacak"
+                },
+                "BACKUP": {
+                    "ALWAYS": "Parolanızı her zaman yedekleyin ve güvenli bir yerde saklayın.",
+                    "OPTIONS": "Kalın kağıda yazabilir ve birden çok kopyasını güvenli yerlerde saklayabilirsiniz. Ayrıca şifreli bir flash sürücüde de saklayabilirsiniz. Alternatif olarak, fonlarınızı ve Solar Masaüstü Cüzdanını depolamak ve bunlara erişmek için Ledger.com'da bulunan bir Ledger Nano S veya Nano X USB donanım cihazı kullanabilirsiniz. Ledger Nano S veya Nano X'inizi bilgisayarınıza bağlayabilir ve parolanızı girmenize gerek kalmadan Solar blok zincirine erişebilirsiniz."
+                },
+                "REMEMBER": "Unutmayın, parolanıza sahip olan herkes paranıza erişebilir. Hesabınızı asla kimseyle paylaşmayın ve bulut gibi saldırıya açık yerlerde saklamaktan kaçının."
+            },
+            "TURN": {
+                "TITLE": "Sıra sizde",
+                "KNOWLEDGE": "Şimdi, parolalarınızı güvende tutmanın ne kadar önemli olduğunun bilgisiyle donanmış olarak, Solar Desktop Wallet ile finansal özerkliğinizi talep etmeye hazırsınız.",
+                "SUPPORT": "Solar açık kaynaklı bir ağdır ve yardıma ihtiyacınız olursa Solar topluluğu ve ekibi yardım etmek için burada.",
+                "CONCLUSION": "Solar.org ekibindeki herkes, blok zinciri devrimine katılmak için Solar Masaüstü Cüzdanını kullanmaktan keyif alacağınızı umuyor!"
+            }
+        },
+        "SEARCH": {
+            "DEFAULT_PLACEHOLDER": "İşlem, adres veya Delege bul",
+            "FILTER": "Filtre",
+            "SEARCH_BY": "Arama ölçütü",
+            "SELECT_OPTION": "Bir seçenek belirleyin",
+            "DELEGATE": "Delege",
+            "WALLETS": "Cüzdanlar",
+            "PERIOD": "DÖNEM"
+        },
+        "CONTACT_REMOVAL_CONFIRMATION": {
+            "QUESTION": "Bu kişiyi silmek istediğinizden emin misiniz?"
+        },
+        "ENCRYPTION": {
+            "DECRYPTING": "Şifre ile cüzdan şifresi çözülüyor...",
+            "ENCRYPTING": "Şifre ile cüzdan şifreleniyor...",
+            "FAILED_DECRYPT": "Anahtar kelimelerin şifresi çözülemedi",
+            "FAILED_ENCRYPT": "Anahtar kelimeler şifrelenemedi"
+        },
+        "LEDGER": {
+            "NEEDS_UPDATE": "LEDGER güncellemesi mevcut! Bu ağ üzerinden işlem göndermek için lütfen Solar uygulamasını Ledger Live aracılığıyla güncelleyin"
+        },
+        "PEER": {
+            "BEST": "En iyiye bağlan",
+            "CONNECTED": "Eşe bağlı",
+            "CONNECT_CUSTOM": "Özel eşe bağlayın",
+            "CUSTOM_TITLE": "Özel eşe bağlan",
+            "MULTI_SIGNATURE_TITLE": "Çok imzalı eşe bağlan",
+            "CONNECT_FAILED": "Eş ile bağlantı kurulamadı",
+            "LATENCY": "Gecikme",
+            "DISCONNECT": "Eşten bağlantıyı kes",
+            "FAILED_REFRESH": "Eşler yenilenemedi",
+            "HEIGHT": "Blok yüksekliği",
+            "LAST_CHECKED": "Son kontrol",
+            "NONE": "Yok",
+            "NO_CONNECT": "Bağlanamadı",
+            "PEER": "Eş:",
+            "STATUS_CHECK_FAILED": "Durum denetimi başarısız",
+            "WRONG_NETWORK": "Yanlış ağ"
+        },
+        "VALIDATION": {
+            "TOO_LONG": "'{0}' çok uzun",
+            "TOO_SHORT": "'{0}' çok kısa",
+            "INVALID_SEED": "Geçersiz sunucu",
+            "INVALID_URI": "Geçersiz URI",
+            "INVALID_URL": "Geçersiz URL",
+            "INVALID_PORT": "Geçersiz Port Numarası",
+            "INVALID_FORMAT": "Geçersiz format",
+            "INVALID_TYPE": "Geçersiz tip",
+            "MAX_LENGTH": "Max {0}",
+            "MIN_LENGTH": "Min {0}",
+            "MUST_BE_GREATER_THAN": "{0}'den büyük olmalıdır",
+            "NOT_MATCH": "'{0}', '{1}' ile eşleşmiyor'",
+            "NOT_VALID": "'{0}' geçerli değil",
+            "NOT_NUMERIC": "'{0}' sayı değil",
+            "NO_SCHEME": "'{0}', 'http://' veya 'https://' içermiyor",
+            "NAME": {
+                "DUPLICATED": "'{0}' adı zaten var",
+                "EXISTS_AS_CONTACT": "'{0}' adı zaten bir kişiye atanmış",
+                "EXISTS_AS_WALLET": "'{0}' adı zaten bir cüzdana atanmış",
+                "MAX_LENGTH": "Ad en fazla {0} karakterden oluşmalıdır.",
+                "MIN_LENGTH": "Ad en az 1 karakterden oluşmalı | Ad en az {n} karakterden oluşmalıdır."
+            },
+            "PASSWORD": {
+                "TOO_SHORT": "Şifreniz en az {0} karakter uzunluğunda olmalıdır",
+                "LOWER_CASE": "Şifreniz en az 1 küçük harf içermelidir",
+                "UPPER_CASE": "Şifreniz en az 1 büyük harf içermelidir",
+                "NUMBERS": "Şifreniz en az 1 rakam içermelidir",
+                "SPECIAL_CHARACTERS": "Şifreniz en az 1 özel karakter içermelidir",
+                "NO_MATCH": "Şifreleriniz eşleşmiyor"
+            },
+            "ADDRESS": {
+                "EXISTS_AS_CONTACT": "'{0}' adresi zaten bir kişi olarak eklendi",
+                "EXISTS_AS_WALLET": "'{0}' adresi zaten bir cüzdan olarak içe aktarıldı"
+            },
+            "PUBLIC_KEY": {
+                "INVALID_LENGTH": "Genel anahtar 66 karakter uzunluğunda olmalıdır"
+            },
+            "URL": {
+                "INVALID": "Geçersiz 'URL'",
+                "NO_GITHUB": "Yalnızca 'github.com' içeren URL'lere izin verilir",
+                "NO_GITHUB_REPOSITORY": "Bu URL bir GitHub deposuna işaret etmiyor"
+            },
+            "VENDOR_FIELD": {
+                "LIMIT_REACHED": "Yalnızca en fazla {0} karakter girebilirsiniz",
+                "LIMIT_REMAINING": "{0}/{1} Kalan"
+            },
+            "RECIPIENT_DIFFERENT_NETWORK": "{0} alıcısı farklı bir ağa ait",
+            "REQUIRED": "'{0}' gerekli",
+            "SEND_NOT_ENABLED": "Seçilen cüzdan için gönderme etkin değil",
+            "WALLET_NOT_ACTIVE": "Bir cüzdan seçin ve URI'yi tekrar açın",
+            "WARNING_BIP39": "'{0}' bir BIP39 Parolası içeriyor",
+            "WARNING_NOT_BIP39": "'{0}' bir BIP39 Parolası değil"
+        },
+        "LANGUAGES": {
+            "en-US": "İngilizce"
+        },
+        "TIME_FORMAT": {
+            "DEFAULT": "Varsayılan",
+            "12H": "12h",
+            "24H": "24h"
+        },
+        "BIP39_LANGUAGES": {
+            "chinese_simplified": "Basitleştirilmiş Çince",
+            "chinese_traditional": "Geleneksel Çince",
+            "english": "İngilizce",
+            "french": "Fransızca",
+            "italian": "İtalyanca",
+            "japanese": "Japonca",
+            "korean": "Korece",
+            "spanish": "İspanyolca"
+        },
+        "MARKET": {
+            "MARKET": "Piyasa",
+            "HISTORICAL_DATA": "Geçmiş veriler",
+            "CHECK_TRADEABLE": "İşlem Yapılabilir Onayını Kontrol Et",
+            "DAY": "Gün",
+            "WEEK": "Hafta",
+            "MONTH": "Ay"
+        },
+        "TABLE": {
+            "PAGE": "Sayfa",
+            "ROWS_PER_PAGE": "Sayfa başına satır",
+            "NO_TRANSACTIONS": "Hiçbir işlem bulunamadı. En son işlemler burada görüntülenecektir.",
+            "NO_CONTACTS": "Gösterilecek kişi yok.",
+            "NO_DELEGATES": "Gösterilecek delege yok.",
+            "NO_WALLETS": "Gösterilecek cüzdan yok."
+        },
+        "APP": {
+            "RELEASE": {
+                "REQUEST_ERROR": "En son sürüm kontrol edilemiyor"
+            }
+        },
+        "APP_FOOTER": {
+            "TEXT": "Solar tarafından ♥ ile yapılmıştır"
+        },
+        "APP_SIDEMENU": {
+            "ANNOUNCEMENTS": "Duyurular",
+            "CONTACTS": "Kişilerim",
+            "CURRENT_PROFILE": "Mevcut Profiliniz \"{profileName}\"",
+            "DASHBOARD": "Kontrol Paneli",
+            "NETWORK": "Ağ",
+            "NETWORKS": "Ağları yönet",
+            "PLUGIN_MANAGER": "Eklenti Yöneticisi",
+            "PLUGINS_PAGES": "Eklenti Sayfaları",
+            "SETTINGS": {
+                "CURRENCY": "Para Birimi",
+                "DARK_MODE": "Karanlık mod",
+                "SCREENSHOT_PROTECTION": {
+                    "TITLE": "Ekran görüntüsü koruması",
+                    "QUESTION": "Ekran görüntüsü korumasını devre dışı bırakmak istediğinizden emin misiniz?",
+                    "NOTE": "Bu özellik, uygulamaların kendi ekran pencere içeriklerini ekran görüntüsü yardımcı programları aracılığıyla yakalanmasını veya kopyalanmasını engellemesini sağlar.",
+                    "SESSION_ONLY": "Yalnızca bu oturum için devre dışı bırak",
+                    "PERMANENTLY": "Kalıcı olarak devre dışı bırak"
+                },
+                "BACKGROUND_UPDATE_LEDGER": "Ledger'i arka planda güncelle",
+                "BROADCAST_PEERS": "Birden çok eşe yayın",
+                "TITLE": "Mevcut ayarlar",
+                "MANAGE_BLACKLIST": "Eklentinin kara listesini yönet",
+                "RESET_DATA": {
+                    "TITLE": "Verileri sıfırla",
+                    "QUESTION": "Verilerinizi silmek istediğinizden emin misiniz?",
+                    "NOTE": "Profiller, cüzdanlar, ağlar ve kişiler dahil tüm verileriniz uygulamadan kaldırılacak ve varsayılana sıfırlanacak. Blok zincirindeki işlemler gibi veriler kaldırılamaz."
+                },
+                "THEME": "Tema"
+            },
+            "WALLETS": "Cüzdanlarım"
+        },
+        "APP_SIDEMENU_NOTIFICATION": {
+            "TOOLTIP": "Yeni sürüm ({version}) yayınlandı!"
+        },
+        "APP_UPDATER": {
+            "RELEASE_NOTES": "Sürüm Notları",
+            "DOWNLOAD_NOW": "Evet, şimdi indir",
+            "MAYBE_LATER": "Hayır, belki daha sonra",
+            "DOWNLOADING": "{version} indiriliyor",
+            "DOWNLOADED": "İndirilen {version}",
+            "QUIT_AND_INSTALL": "Çıkın ve kurun",
+            "UNKNOWN_ERROR": "Bilinmeyen hata. Bu pencereyi kapatın ve tekrar deneyin.",
+            "NETWORK_ERROR": "Dosyanız indirilmiyor gibi görünüyor. Bağlantınızı kontrol edin."
+        },
+        "MARKET_CHART": {
+            "TODAY": "Bugün",
+            "TODAY_AT": "Bugün {hour}'da",
+            "WEEK": {
+                "LONG": {
+                    "FRI": "Cuma",
+                    "MON": "Pazartesi",
+                    "SAT": "Cumartesi",
+                    "SUN": "Pazar",
+                    "TUE": "Salı",
+                    "THU": "Perşembe",
+                    "WED": "Çarşamba"
+                },
+                "SHORT": {
+                    "FRI": "CUMA",
+                    "MON": "PTESİ",
+                    "SAT": "CTESİ",
+                    "SUN": "PZR",
+                    "TUE": "SALI",
+                    "THU": "PRŞ",
+                    "WED": "ÇRŞ"
+                }
+            },
+            "YESTERDAY_AT": "Dün {hour}'da"
+        },
+        "MARKET_CHART_HEADER": {
+            "PRICE": "{currency} fiyatı",
+            "SHOW_CHART": "Grafiği göster"
+        },
+        "BUTTON_CLIPBOARD": {
+            "DONE": "Kopyalandı!",
+            "COPY_TO_CLIPBOARD": "{0} öğesini panoya kopyala",
+            "NOT_SUPPORTED": "Panoya kopyalama desteklenmiyor"
+        },
+        "INPUT_ADDRESS": {
+            "ERROR": {
+                "NOT_VALID": "Adres geçerli değil",
+                "REQUIRED": "Adres gerekli"
+            },
+            "KNOWN_ADDRESS": "Bu cüzdan \"{address}\" olarak biliniyor",
+            "LABEL": "Adres",
+            "NEO_ADDRESS": "Bunun gibi bir NEO adresi var",
+            "QR": "QR kodunu tarayın"
+        },
+        "INPUT_CURRENCY": {
+            "ERROR": {
+                "LESS_THAN_MINIMUM": "Minimum miktar {amount}",
+                "NOT_ENOUGH_AMOUNT": "Maksimum miktar {amount}",
+                "NOT_VALID": "Tutar geçerli değil",
+                "REQUIRED": "Tutar gerekli"
+            },
+            "LABEL": "Miktar"
+        },
+        "INPUT_DELEGATE": {
+            "ERROR": {
+                "REQUIRED": "Delege adı, adresi veya genel anahtar gereklidir",
+                "USERNAME_NOT_FOUND": "'{0}' delege bulunamadı",
+                "ADDRESS_NOT_FOUND": "'{0}' adresine sahip delege bulunamadı",
+                "PUBLIC_KEY_NOT_FOUND": "'{0}' genel anahtarına sahip delege bulunamadı"
+            },
+            "SEARCH_HINT": "Kullanıcı adı, adres veya genel anahtar ile arama yapabilirsiniz"
+        },
+        "INPUT_EDITABLE_LIST": {
+            "NO_ITEMS": "Bu listede hiç öğe yok"
+        },
+        "INPUT_FEE": {
+            "LAST": "Son",
+            "MINIMUM": "Minimum",
+            "AVERAGE": "Ortalama",
+            "MAXIMUM": "Maksimum",
+            "INPUT": "Giriş",
+            "ADVANCED": "Gelişmiş",
+            "LOW_FEE_NOTICE": "Düşük ücretli işlemler asla onaylanmayabilir",
+            "ADVANCED_NOTICE": "Hangi ücreti seçtiğinize dikkat edin çünkü çok yüksek olursa gereğinden fazla maliyetli olacaktır",
+            "UNIQUE": "Ağ ücreti, {fee} statik değerine ayarlandı",
+            "ERROR": {
+                "NOT_VALID": "Ücret geçerli değil",
+                "LESS_THAN_MINIMUM": "Asgari ücret {fee}",
+                "MORE_THAN_MAXIMUM": "Maksimum ücret {fee}"
+            }
+        },
+        "INPUT_GRID": {
+            "MORE": "Daha fazlasını göster"
+        },
+        "INPUT_GRID_MODAL": {
+            "TITLE": "Seç"
+        },
+        "INPUT_PUBLIC_KEY": {
+            "TITLE": "Genel Anahtar",
+            "ERROR": {
+                "NOT_VALID": "Genel anahtar geçerli değil"
+            }
+        },
+        "WALLET_SELECTION": {
+            "PROFILE": "Gönderen Profili",
+            "WALLET": "Gönderen Cüzdanı"
+        },
+        "MODAL_ADDITIONAL_LEDGERS": {
+            "CANCEL": "İptal",
+            "INFO": "Göstermek istediğiniz maksimum Ledger cüzdan miktarını seçin. Şu anda {quantity} cüzdan gösteriyorsunuz.",
+            "LARGE_QUANTITY": "Çok sayıda cüzdan yüklemeye çalışıyorsunuz. Bu, yavaş yüklemeye veya cihazın zaman aşımına uğramasına neden olabilir.",
+            "LOAD": "Cüzdan Yükle",
+            "QUANTITY": "Miktar",
+            "TITLE": "Ek Ledger Cüzdanını Yükleyin"
+        },
+        "MODAL_EXPORT_WALLETS": {
+            "ADVANCED": "Gelişmiş Seçenekler",
+            "CANCEL": "İptal",
+            "COUNT": "{count} cüzdan dışa aktarılacak",
+            "ERROR": {
+                "EXPORT_WALLETS": "Cüzdanlarınız dışa aktarılamadı"
+            },
+            "EXPORT": "0 Cüzdanı Dışa Aktar | 1 Cüzdanı Dışa Aktar | {count} Cüzdanı Dışa Aktar",
+            "INSTRUCTIONS": "<b>Önemli:</b> Dışa aktarılan cüzdanlarınız parolalarınızı içermeyecek, yalnızca adresler ve ilgili adlar kaydedilecektir!",
+            "OPTIONS": {
+                "ADD_NETWORK": "Ağ hakkında bilgi ekle",
+                "EXCLUDE_EMPTY": "Boş cüzdanları hariç tut",
+                "EXCLUDE_LEDGER": "Ledger cüzdanlarını hariç tut",
+                "EXCLUDE_UNNAMED": "Adsız cüzdanları hariç tut"
+            },
+            "SUCCESS": {
+                "EXPORT_WALLETS": "Cüzdanlarınız başarıyla şuraya aktarıldı: {path}"
+            },
+            "TITLE": "Cüzdanları Dışa Aktar"
+        },
+        "MODAL_CLOSE_CONFIRMATION": {
+            "QUESTION": "Bu pencereyi kapatmak istediğinizden emin misiniz?",
+            "CONFIRM": "Evet, kapat",
+            "CANCEL": "Hayır, iptal"
+        },
+        "MODAL_CONFIRMATION": {
+            "CANCEL": "Hayır, iptal et",
+            "CONTINUE": "Evet, eminim",
+            "TITLE": "Onay"
+        },
+        "MODAL_QR_CODE": {
+            "TITLE": "QR Kodu",
+            "SUBTITLE": "Adresi Tara"
+        },
+        "MODAL_QR_SCANNER": {
+            "ERROR": {
+                "NOT_ALLOWED": "QR kodunu taramak için kameraya erişmemiz gerekiyor",
+                "NOT_FOUND": "Kamera bulamadık",
+                "NOT_SUPPORTED": "Sayfa güvenli bir bağlantı (https) üzerinden sunulmuyor",
+                "NOT_READABLE": "Kamera akışını okuyamıyoruz, belki zaten kullanımdadır?",
+                "OVERCONSTRAINED": "Doğru bir kamera bulamamışız gibi görünüyor. Bu, beklediğimiz kısıtlamalarla ilgili bir sorun olabilir.",
+                "STREAM": "Desteklenmeyen bir tarayıcı kullanıyorsunuz. Bu çok ilginç.."
+            },
+            "LOADING": "Kamera yükleniyor",
+            "INSTRUCTION": "Lütfen kameranın önünde bir QR kodu tutun",
+            "TITLE": "QR Tarayıcı",
+            "DECODE_FAILED": "Verilerin kodu çözülemedi: {data}"
+        },
+        "MODAL_LOADER": {
+            "CLOSE_WARNING": "Bir şeyler ters gitmiş gibi görünüyor. Pencereyi kapatabilirsiniz ancak bu olumsuz etkilere neden olabilir."
+        },
+        "MODAL_NETWORK": {
+            "NAME": "İsim",
+            "DESCRIPTION": "Açıklama",
+            "SEED_SERVER": "Seed Sunucusu",
+            "NETHASH": "Nethash",
+            "TOKEN": "Token",
+            "SYMBOL": "Sembol",
+            "VERSION": "Sürüm",
+            "EXPLORER": "Gezgin",
+            "KNOWN_WALLETS_URL": "Bilinen Cüzdan URL'si",
+            "EPOCH": "Epoch",
+            "WIF": "WIF",
+            "SLIP44": "Slip44",
+            "ACTIVE_DELEGATES": "Aktif Delegeler",
+            "ADDRESS_VERSION_MISSING": "Adres Sürümü eksik - lütfen cüzdanlarınızı kontrol edin",
+            "MARKET_TICKER": "Market Ticker (Opsiyonel)",
+            "FAILED_FETCH": "Ağ bilgisi getirilemedi",
+            "NETWORK_IN_USE": "Bu ağ bir veya daha fazla profil tarafından kullanılıyor ve kaldırılamaz",
+            "DEFAULT_NETWORK_NO_DELETE": "Bu bir varsayılan ağdır ve silinemez",
+            "VALIDATING_SEED": "Seed Sunucusu ayrıntıları doğrulanıyor...",
+            "SEED_VALIDATE_FAILED": "Seed sunucuya bağlanılamadı",
+            "PLACEHOLDER": {
+                "EXPLORER": "http://explorer.io",
+                "SEED_SERVER": "http://1.1.1.1:4002",
+                "EPOCH": "2017-03-21T13:00:00.000Z"
+            }
+        },
+        "MODAL_NETWORK_SELECTION": {
+            "TITLE": "Ağlar"
+        },
+        "MODAL_PEER": {
+            "CANCEL": "İptal",
+            "CONNECT": "Bağlan",
+            "HOST": "Protokol + IP / Ana Bilgisayar Adı",
+            "PORT": "Port",
+            "VALIDATING": "Eş ayrıntıları doğrulanıyor...",
+            "PLACEHOLDER": {
+                "HOST": "http://1.2.3.4",
+                "PORT": "4003"
+            }
+        },
+        "MODAL_PLUGIN_MANAGE_BLACKLIST": {
+            "CLOSE": "Kapat",
+            "EMPTY": "Kara listenizde eklenti yok",
+            "REMOVE_ALL": "Tümünü kaldır",
+            "TITLE": "Eklentinin kara listesi"
+        },
+        "MODAL_PLUGIN_DETAILS": {
+            "INSTALL": "Kur",
+            "KEYWORDS": "Anahtar Kelimeler",
+            "SHOW_PERMISSIONS": "İzinleri göster"
+        },
+        "MODAL_PLUGIN_INSTALL": {
+            "CANCEL": "İptal",
+            "DOWNLOADED": "İndirildi {plugin}",
+            "DOWNLOADING": "{plugin} indiriliyor",
+            "INSTALL": "Şimdi kurun",
+            "UPDATE": "Şimdi güncelle",
+            "UNKNOWN_ERROR": "Bilinmeyen hata. Bu pencereyi kapatın ve tekrar deneyin."
+        },
+        "MODAL_PLUGIN_PERMISSIONS": {
+            "ALTERNATIVE_TITLE": "Bu eklentinin aşağıdaki izinlere ihtiyacı var",
+            "BACK": "Geri",
+            "DOWNLOAD": "Şimdi indir",
+            "TITLE": "İzinler",
+            "PERMISSIONS": {
+                "ALERTS": "Masaüstü Cüzdan uyarılarına erişime izin verir",
+                "AUDIO": "Masaüstü Cüzdanından ses çalma erişimi sağlar",
+                "AVATARS": "Eklenti özel avatarlar içeriyor",
+                "COMPONENTS": "Özel bileşenlerin yüklenmesine izin verir",
+                "DIALOGS": "Dosya diyaloglarının kullanılmasına izin verir",
+                "EVENTS": "Masaüstü Cüzdan olaylarına erişim sağlar",
+                "HTTP": "Harici web isteklerinin gerçekleştirilmesine izin verir",
+                "MENU_ITEMS": "Masaüstü Cüzdanı kenar çubuğuna özel menü öğeleri eklemeye izin verir",
+                "MESSAGING": "WebFrame'lerin tek yönlü bir mesajlaşma sistemine erişmesine izin verir",
+                "PEER_ALL": "Eş keşfine erişime izin verir",
+                "PEER_CURRENT": "Şu anda bağlı olan eşe erişime izin verir",
+                "PUBLIC": "Cüzdan rotalarında gezinmeye izin verir ve Font Awesome simge setine erişim sağlar",
+                "PROFILE_ALL": "Mevcut tüm profillere erişime izin verir",
+                "PROFILE_CURRENT": "Şu anda aktif olan profile erişime izin verir",
+                "ROUTES": "Masaüstü Cüzdanına ek rotaların yüklenmesine izin verir",
+                "STORAGE": "Anahtar/değer çiftlerini kullanarak verileri Masaüstü Cüzdanında depolamaya izin verir",
+                "THEMES": "Masaüstü Cüzdanı için ek özel temaların yüklenmesine izin verir",
+                "LANGUAGES": "Masaüstü Cüzdanı için ek dillerin yüklenmesine izin verir",
+                "TIMERS": "Zaman aşımları ve aralıkların kullanılmasına izin verir",
+                "UI_COMPONENTS": "Tümünde kullanılan standart Masaüstü Cüzdan bileşenlerine erişime izin verir",
+                "UTILS": "ABigNumber türü ve dayjs gibi yardımcı programların kullanılmasına izin verir",
+                "WALLET_TABS": "Cüzdan ekranında ek bir sekme/sayfa gösterilmesine izin verir",
+                "WEBFRAME": "Bir çerçeve içinde uzak URL sayfalarının gösterilmesine izin verir",
+                "WEBSOCKET": "Web soket bağlantılara izin verir"
+            }
+        },
+        "MODAL_PLUGIN_URL": {
+            "TITLE": "URL'den yükle",
+            "EXPLANATION": "Aşağıdaki giriş alanındaki eklenti deposunun URL'sini kullanarak eklentiyi doğrudan GitHub'dan alın.",
+            "DISCLAIMER": "<b>Yasal Uyarı:</b> Eklentiyi yüklemeden önce lütfen belgelerini kontrol ettiğinizden emin olun. Eklentiyi cüzdanınıza yükleyerek tüm sorumluluğu üstlenmiş olursunuz."
+        },
+        "PASSPHRASE_INPUT": {
+            "HIDE": "Anahtar kelimeleri gizle",
+            "LABEL": "Anahtar kelimeler",
+            "QR": "QR kodunu tarayın",
+            "SHOW": "Anahtar kelimeleri göster"
+        },
+        "PASSWORD_INPUT": {
+            "HIDE": "Şifreyi gizle",
+            "LABEL": "Şifre",
+            "SHOW": "Şifreyi göster"
+        },
+        "PASSPHRASE_VERIFICATION": {
+            "WORD_LABEL_1": "1. kelime",
+            "WORD_LABEL_2": "2. kelime",
+            "WORD_LABEL_3": "3. kelime",
+            "WORD_LABEL_4": "4. kelime",
+            "WORD_LABEL_5": "5. kelime",
+            "WORD_LABEL_6": "6. kelime",
+            "WORD_LABEL_7": "7. kelime",
+            "WORD_LABEL_8": "8. kelime",
+            "WORD_LABEL_9": "9. kelime",
+            "WORD_LABEL_10": "10. kelime",
+            "WORD_LABEL_11": "11. kelime",
+            "WORD_LABEL_12": "12. kelime"
+        },
+        "PAGES": {
+            "CONTACT_ALL": {
+                "CREATE_CONTACT": "Kişi Oluştur",
+                "IMPORT_CONTACT": "Kişiyi İçe Aktar",
+                "INSTRUCTIONS": "Bu sayfa, kişiler oluşturmanıza olanak tanır, adreslere tanımlanabilir bir ad vererek bu adreslerle çalışmanızı kolaylaştırır",
+                "HEADER": "Kişilerim",
+                "SHOW_CONTACT": "Kişiyi göster"
+            },
+            "CONTACT_NEW": {
+                "INSTRUCTIONS": {
+                    "HEADER": "Yeni kişi",
+                    "TEXT": "Kişiye ait adresi girin. İşlemlerini görebileceksiniz"
+                },
+                "TITLE": "İletişim adresini girin",
+                "ADDRESS": "Adres",
+                "NAME": "Kişi adı (isteğe bağlı)",
+                "NAME_INFO": "Bilgi:",
+                "NAME_DESCRIPTION": "Kişi adı gerekli değildir, ancak size kolaylık sağlamak için kullanılabilir",
+                "FAILED": "Kişi oluşturulamadı",
+                "SUCCESS": "'{0}' kişilerinize eklendi"
+            },
+            "DASHBOARD": {
+                "ALL_WALLETS": "Tüm cüzdanlar",
+                "ADD_WALLET": "Bir cüzdan ekle",
+                "CREATE_WALLET": "Cüzdan Oluştur",
+                "IMPORT_WALLET": "Cüzdanı İçe Aktar",
+                "LAST_TRANSACTIONS": "Son işlemler"
+            },
+            "NETWORK_OVERVIEW": {
+                "INSTRUCTIONS": {
+                    "HEADER": "Ağları yönet",
+                    "TEXT": "Kullanılabilir ağlardan herhangi birini seçin ve düzenleyin veya yenilerini ekleyin."
+                },
+                "CREATE_NEW": "Yeni bir ağ ekle",
+                "CREATE_NEW_DESCRIPTION": "Ağınız için ayrı ayarlar",
+                "NEW_NETWORK": "Yeni ağ"
+            },
+            "PLUGIN_MANAGER": {
+                "HEADER": "Eklentiler",
+                "ENABLED": "Etkin",
+                "DISABLED": "Engelli",
+                "INSTALL": "Kur",
+                "INSTALLING": "'{plugin}' yükleniyor",
+                "INSTALL_URL": "URL'den yükle",
+                "BLACKLISTING": "Kara listeye ekle '{plugin}'",
+                "REMOVING": "'{plugin}' kaldırılıyor",
+                "UPDATING": "'{plugin}' güncelleniyor",
+                "OFFICIAL": "Resmi {author} eklentisi",
+                "MENU": "Menü",
+                "BANNER": {
+                    "TITLE": "Eklenti Yöneticisine Hoş Geldiniz",
+                    "SUBTITLE": "Eklentiler bulmanın, yönetmenin ve kurmanın kolay yolu"
+                },
+                "CATEGORIES": {
+                    "ALL": "Tümü",
+                    "GAMING": "Oyun",
+                    "UTILITY": "Faydalı",
+                    "THEME": "Temalar",
+                    "LANGUAGE": "Diller",
+                    "OTHER": "Diğer"
+                },
+                "FILTERS": {
+                    "ALL": "Hepsi",
+                    "INSTALLED": "Kurulu",
+                    "OFFICIAL": "Resmi",
+                    "FUNDED": "Finanse edilen"
+                },
+                "NO_SEARCH_RESULTS": "Maalesef \"{query}\" araması sonuç vermedi",
+                "NO_RESULTS": "{category} kategorisinde {filter} eklenti yok",
+                "SEARCH": "Arama",
+                "CLICK_TO_RELOAD": "Eklenti deposunu yeniden yükleyin",
+                "ALREADY_INSTALLED": "Bu eklentiyi zaten yüklediniz",
+                "UPDATE": {
+                    "AVAILABLE": "En son sürüme güncelle ({version})",
+                    "NOT_AVAILABLE": "Güncelleme yok"
+                },
+                "ERRORS": {
+                    "ALREADY_INSTALLED": "'{plugin}' eklentisi zaten kurulu",
+                    "DISABLE": "'{plugin}'eklentisi devre dışı bırakılamadı: {error}",
+                    "ENABLE": "'{plugin}' eklentisi etkinleştirilemedi: {error}",
+                    "FETCH": "'{plugin}'eklentisi yüklendi ancak kurulamadı"
+                },
+                "SUCCESS": {
+                    "INSTALLATION": "'{plugin}' eklentisi başarıyla kuruldu ve yüklendi",
+                    "UPDATE": "'{plugin}' eklentisi başarıyla güncellendi ve yeniden yüklendi",
+                    "REMOVE": "'{plugin}' eklentisi başarıyla kaldırıldı",
+                    "BLACKLIST": "'{plugin}' eklentisi kara listeye eklendi",
+                    "RELOAD": "Eklenti deposu başarıyla yeniden yüklendi"
+                },
+                "DISCLAIMER": "<b>Yasal Uyarı:</b> Bu eklentinin Solar Masaüstü Cüzdanında bulunması, Solar.org'un bu eklentiyi sağlayan geliştiriciyle doğrudan bağlantılı olduğu veya bu eklentiyi sağlayan geliştiriciyle bağlantılı olduğu anlamına gelmez. Eklentiyi cüzdanınıza yükleyerek , her sorumluluğu üstleniyorsunuz.",
+                "REPORT": "Bu eklentiyi rapor et",
+                "BLACKLISTED": "Bu eklenti zaten kara listeye alınmış",
+                "VERSION_MISMATCH": "Bu eklenti cüzdan sürümünüzle uyumlu değil"
+            },
+            "PROFILE_ALL": {
+                "HEADER": "Profillerim",
+                "ADD_PROFILE": "Profil ekle",
+                "EDIT_PROFILE": "Profili düzenle",
+                "REMOVE_PROFILE": "Bu profili kaldır",
+                "SELECT_PROFILE": "Bu profili kullan"
+            },
+            "PROFILE_NEW": {
+                "STEP1": {
+                    "INSTRUCTIONS": {
+                        "HEADER": "Bir profil oluştur",
+                        "TEXT": "Adınızı veya takma adınızı girin ve tercih ettiğiniz dili ve varsayılan para birimini seçin."
+                    },
+                    "NAME": "Profil adı",
+                    "TITLE": "1. Profil ayrıntıları",
+                    "AVATAR": "Favori avatarınızı veya profil adınızın ilk harfini seçin"
+                },
+                "STEP2": {
+                    "INSTRUCTIONS": {
+                        "HEADER": "Ağ seçimi",
+                        "TEXT": "Bu profilin ağını seçin."
+                    },
+                    "CUSTOM_NETWORK": "veya özel bir ağ seçebilirsiniz",
+                    "CUSTOM_NETWORK_EXPLAIN": "Özel ağınızı seçebilir veya mevcut ağlardan herhangi birini seçebilirsiniz.",
+                    "NAME": "Profil adı",
+                    "TITLE": "2. Ağ"
+                },
+                "STEP3": {
+                    "INSTRUCTIONS": {
+                        "HEADER": "Görünüm",
+                        "TEXT": "Temalarımızdan ve arka planlarımızdan birini seçerek bu uygulamayı özelleştirin."
+                    },
+                    "MARKET_CHART": "VFiyat tablosunu gösterge tablosunda gösterip göstermemeyi seçin",
+                    "THEME": "Tema seçin",
+                    "BACKGROUND": "En sevdiğiniz arka planı seçin",
+                    "NAME": "Profil adı",
+                    "TITLE": "3. Görünüm"
+                }
+            },
+            "PROFILE_EDITION": {
+                "ERROR": {
+                    "DUPLICATE_PROFILE": "Bu ada sahip bir profil zaten var"
+                },
+                "TAB_PROFILE": {
+                    "INSTRUCTIONS": {
+                        "HEADER": "Bu profili düzenle",
+                        "TEXT": "Burada adınızı veya takma adınızı değiştirebilir, tercih ettiğiniz dili ve varsayılan para birimini, ağı ve avatarı seçebilirsiniz."
+                    },
+                    "TITLE": "Profil"
+                },
+                "TAB_DESIGN": {
+                    "INSTRUCTIONS": {
+                        "HEADER": "Bu cüzdanı özelleştir",
+                        "TEXT": "Buradan varsayılan temayı (açık veya koyu) ve arka planı seçebilirsiniz."
+                    },
+                    "TITLE": "Cüzdan tasarımı"
+                },
+                "TAB_PLUGINS": {
+                    "INSTRUCTIONS": {
+                        "HEADER": "Eklenti ayarları",
+                        "TEXT": "Burada Eklenti Yöneticisinin ayarlarını yapabilirsiniz."
+                    },
+                    "TITLE": "Eklentiler"
+                },
+                "ADVANCED_MODE": {
+                    "DECLINE": "Reddediyorum",
+                    "ACCEPT": "Kabul Ediyorum",
+                    "QUESTION": "Gelişmiş Modu etkinleştirerek, dosyaların doğrudan bir URL bağlantısından indirilmesi ve söz konusu dosyaların kurulmasıyla ilişkili riski üstlenmiş olursunuz. Yukarıda belirtilen bağlantılar Solar tarafından ne test edilmiş ne de onaylanmıştır. bu URL'lerin sürdürülebilirliği, kullanılabilirliği, güvenliği. Doğrudan bir URL'den dosya indirme, görüntüleme veya yüklemeden doğabilecek sonuçlardan veya Gelişmiş Mod'da geçiş yapılarak etkinleştirilen özellikten sorumlu değiliz. Solar hiçbir sorumluluk kabul etmez. Gelişmiş Mod'a geçerek belirli önlemleri atlayan kullanıcıların uğradığı kayıp. “Kabul Ediyorum” seçeneğine tıklayarak Gelişmiş Modu etkinleştirmenin, hatalar, aksaklıklar, işlevsellik eksikliği,veya makinenize zarar verebilir veya veri kaybına neden olabilir.",
+                    "TITLE": "Gelişmiş Mod Sorumluluk Reddi"
+                }
+            },
+            "WALLET": {
+                "TRANSACTIONS": "Transfer",
+                "DELEGATES": "Delegeler",
+                "IPFS": "IPFS",
+                "MULTI_SIGNATURE": "Çoklu-İmza",
+                "MULTI_SIGNATURE_WALLET": "Çoklu imzalı cüzdan",
+                "STATISTICS": "İstatistikler",
+                "SIGN_VERIFY": "İmzala",
+                "PURCHASE": "Satın alma {ticker}"
+            },
+            "WALLET_ALL": {
+                "LEDGER": {
+                    "CACHE": "Ledger cüzdanlarını önbelleğe al?",
+                    "CACHE_INFO": "İlk bağlandığında yüklemeyi hızlandırmak için cüzdanları Ledger'dan önbelleğe alın",
+                    "ADDITIONAL": "Ek Ledger Cüzdanını Yükle",
+                    "OPTIONS": "Ledger Seçenekleri"
+                },
+                "CREATE_WALLET": "Cüzdan Oluştur",
+                "DELETE_WALLET": "Bu cüzdanı sil",
+                "HEADER": "Cüzdanlarım",
+                "IMPORT_WALLET": "Cüzdanı İçe Aktar",
+                "EXPORT_WALLETS": "Cüzdanları Dışa Aktar",
+                "LOADING_LEDGER": "Ledger cüzdanları yükleniyor...",
+                "SHOW_WALLET": "Cüzdanı göster",
+                "TOTAL_BALANCE": "Toplam bakiye",
+                "ADDRESS": "Adres",
+                "NAME": "İsim",
+                "VOTING_FOR": "Oylama",
+                "DELEGATE_NOT_ACTIVE": "{delegate} ({rank}) aktif bir delege değil",
+                "BALANCE": "Bakiye",
+                "DELETE": "Sil"
+            },
+            "WALLET_IMPORT": {
+                "STEP1": {
+                    "INSTRUCTIONS": {
+                        "HEADER": "Cüzdanı İçe Aktar",
+                        "TEXT": "Cüzdanınızın parolasını girin. Verilen parolayla eşleştiğinden emin olmak için önce adresi doldurabilirsiniz."
+                    },
+                    "TITLE": "1. Cüzdanı İçe Aktar",
+                    "ONLY_ADDRESS": "Yalnızca adresi kullanın",
+                    "ONLY_PASSPHRASE": "Yalnızca anahtar kelimelerinizi kullanın"
+                },
+                "STEP2": {
+                    "INSTRUCTIONS": {
+                        "HEADER": "Cüzdan şifrelemesi",
+                        "TEXT": "Anahtar kelimelerinizi şifrelemek için kullanmak istediğiniz bir parola girin."
+                    },
+                    "TITLE": "2. Şifreleme",
+                    "PASSWORD": "Cüzdan şifresi (isteğe bağlı)",
+                    "PASSWORD_CONFIRM": "Şifreyi onayla",
+                    "PASSWORD_WARNING": "Parolanızı kaydetmek riskler getirebilir.."
+                },
+                "STEP3": {
+                    "INSTRUCTIONS": {
+                        "HEADER": "Cüzdan yapılandırması",
+                        "TEXT": "İsteğe bağlı olarak cüzdanınız için bir isim seçin ve işiniz bitti."
+                    },
+                    "TITLE": "3. Onay",
+                    "ADDRESS": "Cüzdan adresi",
+                    "NAME": "Cüzdan adı (isteğe bağlı)"
+                },
+                "FAILED": "cüzdan içe aktarılamadı"
+            },
+            "WALLET_NEW": {
+                "STEP1": {
+                    "INSTRUCTIONS": {
+                        "HEADER": "Yeni cüzdan",
+                        "TEXT_BEFORE_BUTTON": "Yeni oluşturulmuş bu cüzdanlardan birini seçin. Beğenmiyorsanız tıklayın",
+                        "TEXT_AFTER_BUTTON": "başka cüzdan oluşturmak için tıklayın."
+                    },
+                    "TITLE": "1. Cüzdanı seçin"
+                },
+                "STEP2": {
+                    "INSTRUCTIONS": {
+                        "HEADER": "Kişisel anahtarınız",
+                        "TEXT": "Parolanızı güvenli bir şekilde kaydettiğinizden emin olun. Bu parolayı kimseye göstermeyin."
+                    },
+                    "TITLE": "2. Yedekleme"
+                },
+                "STEP3": {
+                    "INSTRUCTIONS": {
+                        "HEADER": "Parola onayı",
+                        "TEXT": "Yeni hesabı doğrulamak için parolanızdan {words} yazın.",
+                        "ALL_WORDS": "tüm kelimeler",
+                        "WORDS": "kelimeler {words}"
+                    },
+                    "TITLE": "3. Doğrulama",
+                    "CHECK_ENTIRE_PASSPHRASE": "Parolanın tamamını kontrol edin",
+                    "VERIFY_ALL_WORDS": "Her parola kelimesini doğrulayın"
+                },
+                "STEP4": {
+                    "INSTRUCTIONS": {
+                        "HEADER": "Cüzdan şifrelemesi",
+                        "TEXT": "Anahtar kelimelerinizi şifrelemek için kullanmak istediğiniz bir parola girin."
+                    },
+                    "TITLE": "4. Şifreleme",
+                    "PASSWORD": "Cüzdan şifresi (isteğe bağlı)",
+                    "PASSWORD_CONFIRM": "Şifreyi onayla",
+                    "PASSWORD_WARNING": "Parolanızı saklamak riskler getirebilir."
+                },
+                "STEP5": {
+                    "INSTRUCTIONS": {
+                        "HEADER": "Cüzdan yapılandırması",
+                        "TEXT": "İsteğe bağlı olarak cüzdanınız için bir isim seçin ve işiniz bitti."
+                    },
+                    "TITLE": "5. Onay",
+                    "ADDRESS": "Cüzdan adresiniz ve kimliğiniz",
+                    "NAME": "Cüzdan adı (isteğe bağlı)"
+                }
+            },
+            "WALLET_SHOW": {
+                "NO_VOTE": "Cüzdan oylama yapmadı",
+                "ADD_CONTACT": "Kişilere ekle",
+                "VOTING_FOR": "{delegate} için oylama"
+            }
+        },
+        "PLUGIN_TABLE": {
+            "ACTIONS": "Eylemler",
+            "AUTHOR": "Yazar",
+            "CATEGORY": "Kategori",
+            "DISABLED": "Engelli",
+            "ENABLED": "Etkin",
+            "LOGO": "Logo",
+            "NAME": "İsim",
+            "AVAILABLE": "Yüklü değil",
+            "NO_PLUGINS": "Kullanılabilir eklenti yok",
+            "SIZE": "Boyut",
+            "STATUS": "Durum",
+            "VERSION": "Sürüm"
+        },
+        "PROFILE_LEAVING_CONFIRMATION": {
+            "QUESTION": "Bu profile yapılan değişiklikleri yok saymak istediğinizden emin misiniz?",
+            "NO": "Hayır, onları kaydet",
+            "YES": "Evet, onları görmezden gelin"
+        },
+        "PROFILE_REMOVAL_CONFIRMATION": {
+            "NOTE": "Cüzdanlarınızı kaldırsa da blok zincirindeki hiçbir veriyi silmez. Anahtar kelimeleri olduğu sürece cüzdanları kurtarabilirsiniz",
+            "QUESTION": "Bu profili kaldırmak istediğinizden emin misiniz?"
+        },
+        "SELECTION_AVATAR": {
+            "ADDITIONAL_AVATARS": "Ek Avatarlar",
+            "AVATARS": "Avatarlar",
+            "MODAL_HEADER": "Avatar seç",
+            "NO_AVATAR": "Avatar Yok"
+        },
+        "SELECTION_BACKGROUND": {
+            "MODAL_HEADER": "Arka plan seç",
+            "TEXTURES": "Dokular",
+            "WALLPAPERS": "Duvar Kağıtları"
+        },
+        "SELECTION_NETWORK": {
+            "MODAL_HEADER": "Ağlar"
+        },
+        "TRANSACTION": {
+            "TYPE": {
+                "TRANSFER": "Transfer",
+                "SECOND_SIGNATURE": "İkinci İmza",
+                "DELEGATE_REGISTRATION": "Delege Kaydı",
+                "VOTE": "Oy",
+                "UNVOTE": "Oyu iptal et",
+                "MULTI_SIGN": "Çoklu İmza İşlemi",
+                "MULTI_SIGNATURE": "Çoklu imza",
+                "IPFS": "IPFS",
+                "MULTI_PAYMENT": "Çoklu ödeme",
+                "DELEGATE_RESIGNATION": "Delege İstifası",
+                "HTLC_LOCK": "Zaman kilidi",
+                "HTLC_CLAIM": "Zaman Kilidi Talebi",
+                "HTLC_REFUND": "Zaman Kilidi Geri Ödemesi"
+            },
+            "ERROR": {
+                "VALIDATION": {
+                    "TRANSFER": "Transfer işlemi oluşturulamadı",
+                    "SECOND_SIGNATURE": "İkinci İmza işlemi oluşturulamadı",
+                    "DELEGATE_REGISTRATION": "Delegate Kaydı işlemi oluşturulamadı",
+                    "VOTE": "Oy işlemi oluşturulamadı",
+                    "MULTI_SIGN": "Çok imzalı işlem yapılamadı",
+                    "MULTI_SIGNATURE": "Çoklu imza işlemi oluşturulamadı",
+                    "MULTI_PAYMENT": "Çoklu ödeme işlemi oluşturulamadı",
+                    "IPFS": "IPFS işlemi oluşturulamadı"
+                },
+                "TRANSFER": "İşleminiz gönderilemedi",
+                "SECOND_SIGNATURE": "İkinci imza kaydedilemedi",
+                "DELEGATE_REGISTRATION": "İkinci imza kaydedilemedi",
+                "VOTE": "Oy kaydedilemedi",
+                "UNVOTE": "Oy iptali kaydedilemedi",
+                "IPFS": "IPFS oluşturulamadı",
+                "MULTI_SIGN": "İşlem imzalanamadı",
+                "MULTI_SIGNATURE": "Çoklu imza oluşturulamadı",
+                "HTLC_LOCK": "Zaman kilidi oluşturulamadı",
+                "HTLC_CLAIM": "Zaman Kilidi Talebi oluşturulamadı",
+                "HTLC_REFUND": "Zaman Kilidi Geri Ödemesi oluşturulamadı",
+                "MULTI_PAYMENT": "Çoklu ödeme oluşturulamadı",
+                "MULTI_PAYMENT_TO_SELF": "Kendisine gönderilen {amount} hariç",
+                "DELEGATE_RESIGNATION": "Delege istifası başarısız oldu",
+                "SAVE_OFFLINE": "İşlem dosyası kaydedilemedi: {error}",
+                "LOAD_FROM_FILE": "İşlem dosyası yüklenemedi",
+                "LOAD_FROM_URI": "İşlem URI'si yüklenemedi",
+                "EXPIRED": "İşlem, işlenmeden önce süresi doldu: {transactionId}",
+                "FEE_TOO_LOW": "Ücret ({fee}) çok düşük olduğu için işlem gönderilemedi",
+                "NOT_ENOUGH_BALANCE": "Alıcıların toplam tutarı + ücret, cüzdanın bakiyesinden ({balance}) fazla",
+                "NOTHING_SENT": "İşlem gönderilemedi. Lütfen ağ bağlantınızı kontrol edin veya eşinizi değiştirin",
+                "WRONG_NONCE": "İşlem gönderilemedi. Yanlış nonce sağlandı",
+                "NETWORK_NOT_CONFIGURED": "Ağ yapılandırılmadı",
+                "WALLET_NOT_IMPORTED": "Cüzdan içe aktarılmadı"
+            },
+            "FOOTER_TEXT": {
+                "DELEGATE_REGISTRATION": "Kayıt blok zincirine kaydedildikten sonra delegenizin adını değiştiremeyeceğinizi unutmayın.",
+                "DELEGATE_RESIGNATION": "İstifa blok zincirine kaydedildikten sonra delegenizi geri yükleyemeyeceğinizi unutmayın."
+            },
+            "INFO": {
+                "BROADCASTING": "İşleminiz ağa yayınlanıyor",
+                "BROADCASTING_SLOW": "İşleminizi yayınlamak biraz zaman alıyor gibi görünüyor. Pencereyi kapatabilirsiniz ve arka planda göndermeye devam edecek."
+            },
+            "SUCCESS": {
+                "TRANSFER": "İşleminiz başarıyla gönderildi",
+                "SECOND_SIGNATURE": "İkinci imza başarıyla kaydedildi",
+                "DELEGATE_REGISTRATION": "Delege olarak başarıyla kaydedildi",
+                "VOTE": "Başarılı olarak oy verildi",
+                "UNVOTE": "Oylama başarıyla iptal edildi",
+                "MULTI_SIGN": "İşlem başarıyla imzalandı",
+                "MULTI_SIGNATURE": "Çoklu imza başarıyla oluşturuldu",
+                "IPFS": "IPFS başarıyla oluşturuldu",
+                "HTLC_LOCK": "Zaman kilidi başarıyla oluşturuldu",
+                "HTLC_CLAIM": "Zaman Kilidi Talebi başarıyla oluşturuld",
+                "HTLC_REFUND": "Zaman Kilidi Geri Ödemesi başarıyla oluşturuldu",
+                "MULTI_PAYMENT": "Çoklu ödeme başarıyla oluşturuldu",
+                "DELEGATE_RESIGNATION": "Delege istifası başarılı oldu",
+                "SAVE_OFFLINE": "İşlem dosyası başarıyla şuraya kaydedildi: {path}",
+                "LOAD_FROM_FILE": "İşlem dosyası başarıyla yüklendi"
+            },
+            "VOTE": {
+                "VOTE_DELEGATE": "Yetkili {delegate} için oy verin",
+                "UNVOTE_DELEGATE": "Yetkili {delegate} oyu iptal et"
+            },
+            "MULTI_PAYMENT": {
+                "TOTAL_AMOUNT": "Toplam tutare",
+                "WARNING_DUPLICATE": "Adres zaten bir alıcı"
+            },
+            "MULTI_SIGNATURE": {
+                "ADDRESS": "Çoklu İmza Adresi",
+                "BUTTON_ADD": "Ekle",
+                "ERROR_DUPLICATE": "Genel anahtar zaten eklendi",
+                "ERROR_MIN_KEYS_TOO_HIGH": "Gerekli minimum imza sayısı çok yüksek",
+                "ERROR_MIN_KEYS_TOO_LOW": "Gerekli minimum imza sayısı çok düşük",
+                "ERROR_PUBLIC_KEY_NOT_FOUND": "Genel anahtar belirlenemedi",
+                "ERROR_PUBLIC_KEY_EXISTS": "Genel anahtar zaten sağlandı",
+                "MIN_KEYS": "Gerekli Minimum İmza",
+                "N_MORE": "{0} imza daha",
+                "PUBLIC_KEYS": "Genel Anahtarlar",
+                "READY": "Hazır",
+                "TOTAL_SIGNATURES": "Toplam İmza",
+                "TAB": {
+                    "ADDRESS": "Adres",
+                    "PUBLIC_KEY": "Genel Anahtar"
+                },
+                "YOUR_SIGNATURE": "İmzanız",
+                "NO_SIGNATURES": "İmza yok"
+            },
+            "BRIDGECHAIN": {
+                "BUTTON_ADD": "Ekle",
+                "NAME": "İsim",
+                "SEED_NODE": "Seed Node IP Adresi",
+                "SEED_NODES": "Seed Node'ları ",
+                "GENESIS_HASH": "Genesis Hash",
+                "BRIDGECHAIN_REPOSITORY": "Bridgechain Deposu",
+                "BRIDGECHAIN_ASSET_REPOSITORY": "Bridgechain Varlık Deposun",
+                "API_PORT": "API Bağlantı Noktası",
+                "ERROR_DUPLICATE": "Seed Node zaten eklendi",
+                "NO_SEED_NODES": "Seed Node yok",
+                "INVALID_SEEDS": "Geçersiz bir seed node'unuz var - lütfen düzgün çalıştığını ve çalıştığını kontrol edin | Geçersiz seed nodelarınız var - lütfen bunların doğru şekilde çalıştığını ve çalıştığını kontrol edin"
+            },
+            "WARNING": {
+                "BROADCAST": "İşlem diğer eşlere yayınlandı. Onlar tarafından kabul edilmeyebilir"
+            },
+            "AMOUNT": "Tutar",
+            "BLOCK_ID": "Blok Kimliği",
+            "BUTTON_ADD": "Ekle",
+            "BUTTON_ADD_RECIPIEN": "Alıcı #{number} Ekle",
+            "CONFIRMATION_COUNT": "{confirmations} Onaylar",
+            "CONFIRM_SEND_ALL": "Bu işlemde mevcut cüzdanınızdaki tüm jetonlarınızın gönderilmesini sağlayacaktır. Seçilen transfer ücreti gönderme tutarından düşülecektir.",
+            "CONFIRM_SEND_ALL_TITLE": "Tüm jetonlarınız gönderilsin mi?",
+            "CONFIRM_SEND_ALL_NOTE": "Not: gönderildikten sonra bu işlem geri alınamaz.",
+            "CONFIRMATIONS": "Onaylar",
+            "CREATE_TRANSFER": "Transfer Oluştur",
+            "DISCARD": "Atın",
+            "EXPIRED": "Süresi doldu",
+            "FEE": "İşlem ücret",
+            "HASH": "Hash",
+            "ID": "ID",
+            "LEDGER_SIGN_NOTICE": "Ardından işlemi Ledger'ınızla onaylayacaksınız",
+            "LEDGER_SIGN_WAIT": "Ledger İmzası Bekleniyor. Lütfen hazır olduğunuzda işlemi kontrol edip imzalayın.",
+            "LEDGER_SIGN_FAILED": "Ledger ile işlem imzalanamadı",
+            "LEDGER_USER_DECLINED": "LKullanıcı reddedildi",
+            "LOAD_FROM_FILE": "Dosyadan işlemi yükle",
+            "LOAD_FROM_URI": "URI'den işlem yükle",
+            "MULTIPLE": "Birden çok",
+            "NONCE": "Nonce",
+            "NO_RECIPIENTS": "Alıcı yok",
+            "OPEN_IN_EXPLORER": "Explorer'da Aç",
+            "PASSPHRASE": "Anahtar kelimeler",
+            "PASSWORD": "Şifreleme Şifresi",
+            "RECIPIENT": "Alıcı",
+            "RECIPIENTS": "Alıcılar",
+            "RECIPIENTS_TITLE_MINIMUM": "Alıcılar (en az 2)",
+            "RESEND": "Yeniden Gönder",
+            "RESENT_NOTICE": "{transactionId} işlemi yeniden gönderildi",
+            "SAVE_OFFLINE": "İşlemi çevrimdışı kaydet",
+            "SECOND_PASSPHRASE": "İkinci Parola",
+            "SEND": "Gönder",
+            "SEND_ALL": "Tümünü Gönder",
+            "SENDER": "Gönderici",
+            "SIGN": "İşaret",
+            "SINGLE": "Yalnız",
+            "STATUS": "Durum",
+            "TIMESTAMP": "Zaman Damgası",
+            "TRANSACTION": "İşlem",
+            "USERNAME": "Kullanıcı adı",
+            "VENDOR_FIELD": "Akıllı Köprü",
+            "WELL_CONFIRMED": "İyi Onaylandı",
+            "WELL_CONFIRMED_COUNT": "İyi Onaylandı ({confirmations} onaylar)"
+        },
+        "SIGN_VERIFY": {
+            "VERIFY_WALLET": "Cüzdanınızı doğrulayın",
+            "VERIFY_BY_SIGNING": "Cüzdanın size ait olduğunu doğrulamak için bir mesaj imzalayın",
+            "SIGN": "İşaret",
+            "VERIFY": "Doğrula",
+            "TITLE_SIGN": "Mesaj imzalayın",
+            "TITLE_VERIFY": "Bir iletiyi doğrula",
+            "MESSAGE": "Mesaj",
+            "ADDRESS": "Adres",
+            "PUBLIC_KEY": "Genel anahtar",
+            "SIGNATURE": "İmza",
+            "JSON_MESSAGE": "İmzalı mesaj içeriği",
+            "FORMAT_FOOTER": "Formato (JSON): { \"Genel anahtar\": \"...\", \"imza\": \"...\", \"mesaj\": \"...\" }",
+            "VERIFIED": "Mesaj başarıyla doğrulandı",
+            "NOT_VERIFIED": "Mesaj doğrulanmadı",
+            "CONFIRMATION": "Onay",
+            "DELETE": "Mesajı sil",
+            "FAILED_SIGN": "Mesaj imzalanamadı",
+            "FAILED_VERIFY": "Mesaj doğrulanamadı",
+            "SUCCESSFULL_SIGN": "Mesajınız imzalandı",
+            "SUCCESSFULL_VERIFY": "Mesaj doğrulandı"
+        },
+        "SYNCHRONIZER": {
+            "GROUP_1": {
+                "VOTE": "oy verildi",
+                "UNVOTE": "voy verilmemiş",
+                "NEW_SECOND_SIGNATURE": "eni ikinci imza: {address}",
+                "NEW_DELEGATE_REGISTRATION": "Yeni delege: {address}, {username} olarak kaydedildi",
+                "NEW_VOTE": "Yeni oy: {address} {voteUnvote} {publicKey}",
+                "NEW_MULTI_SIGNATURE": "Yeni çoklu imza kaydı: {address}",
+                "NEW_IPFS": "Yeni IPFS hash: {address}",
+                "NEW_MULTI_PAYMENT_SENT": "Yeni çoklu ödeme: {sender}'dan {recipient}'a {amount} gönderildi",
+                "NEW_MULTI_PAYMENT_RECEIVED": "Yeni çoklu ödeme: {sender}'dan {recipient}'e {amount} alındı",
+                "NEW_DELEGATE_RESIGNATION": "Yeni delege istifası: {address}, {username} olarak kaydedildi",
+                "NEW_TRANSFER_SENT": "Yeni transfer: {sender}'dan {recipient}'e {amount} gönderildi",
+                "NEW_TRANSFER_RECEIVED": "Yeni transfer: {sender}'dan {recipient}'e {amount} alındı"
+            }
+        },
+        "TRANSACTION_FORM": {
+            "ERROR": {
+                "NOT_ENOUGH_BALANCE": "Yeni transfer: {sender}'dan {recipient}'e {amount} alındı"
+            }
+        },
+        "TRANSACTION_DETAIL": {
+            "SEND_AMOUNT": "{token} gönder"
+        },
+        "WALLET_HEADING": {
+            "ACTIONS": {
+                "WALLET_NAME": "Cüzdan Adı",
+                "CONTACT_NAME": "Kişi Adı",
+                "REGISTER_MULTISIGNATURE": "Çoklu İmzayı Kaydet",
+                "REGISTER_DELEGATE": "Delege Kaydı",
+                "RESIGN_DELEGATE": "Delegasyondan Ayrıl",
+                "SECOND_PASSPHRASE": "İkinci Parola",
+                "DELETE_CONTACT": "Kişiyi Sil",
+                "DELETE_WALLET": "Cüzdanı Sil",
+                "SHOW_PUBLIC_KEY": "Genel Anahtarı Göster",
+                "SHOW_ADDRESS": "Adresi Göster"
+            },
+            "PENDING_BALANCE": "1 onaylanmamış işlem dahil {amount} | {n} onaylanmamış işlem dahil {amount}",
+            "SECOND_PASSPHRASE_ENABLED": "İkinci İmza Etkinleştirildi"
+        },
+        "WALLET_SECOND_SIGNATURE": {
+            "NEW": "Yeni ikinci parola oluştur",
+            "ALREADY_REGISTERED": "Bu adres için kayıtlı ikinci bir parola zaten var",
+            "INSTRUCTIONS": "Ağ ile etkileşim kurmak için her iki 12 kelimelik parolaya da ihtiyacınız olacak. Onları güvende tutun!"
+        },
+        "WALLET_SIDEBAR": {
+            "FILTER": "Filtre",
+            "HIDE": "Gizle",
+            "EXPAND": "Genişlet",
+            "LOADING_LEDGER": "Ledger Yükleniyor...",
+            "FILTERS": {
+                "HIDE_EMPTY_CONTACTS": "Boş kişileri gizle",
+                "HIDE_EMPTY_WALLETS": "Boş cüzdanları gizle",
+                "HIDE_LEDGER": "Ledger cüzdanlarını gizle"
+            },
+            "SEARCH": {
+                "PLACEHOLDER_CONTACTS": "Kişilerinizi filtrelemek için tıklayın",
+                "PLACEHOLDER_WALLETS": "Cüzdanlarınızı filtrelemek için tıklayın"
+            },
+            "SORT": {
+                "BALANCE_ASC": "Bakiye (min - max)",
+                "BALANCE_DESC": "Bakiye (maks - min)",
+                "BY": "Sıralama ölçütü",
+                "NAME_ASC": "Ad (A'dan Z'ye)",
+                "NAME_DESC": "Ad (Z'den A'ya)"
+            }
+        },
+        "WALLET_DELEGATES": {
+            "STATUS": {
+                "TITLE": "Durum",
+                "ACTIVE": "Etkin",
+                "STANDBY": "Beklemede",
+                "RESIGNED": "İstifa"
+            },
+            "RANK": "Sıralama",
+            "USERNAME": "Kullanıcı adı",
+            "RANK_BANNER": "Sıra: {rank}",
+            "RANK_NOT_APPLICABLE": "Geçerli değil",
+            "RANK_NOT_AVAILABLE": "Henüz mevcut değil",
+            "APPROVAL": "Oy %",
+            "FORGED": "Kazanılan",
+            "BLOCKS": "Bloklar",
+            "VOTERS": "Seçmenler",
+            "UNVOTE": "Oyu iptal et",
+            "VOTES": "Oylar",
+            "VOTE": "Oy",
+            "USERNAME_EMPTY_ERROR": "Kullanıcı adı en az 1 karakterden oluşmalıdır",
+            "USERNAME_ERROR": "Özel karakterlere veya büyük harflere izin verilmez",
+            "USERNAME_EXISTS": "Bu kullanıcı adına sahip bir delege zaten var",
+            "USERNAME_MAX_LENGTH_ERROR": "Kullanıcı adı en fazla 20 karakter uzunluğunda olmalıdır",
+            "ALREADY_REGISTERED": "Bu cüzdan zaten bir delege olarak kayıtlı",
+            "NOT_REGISTERED": "Bu cüzdan bir delege olarak kayıtlı değil",
+            "BLOG": "Oylama Rehberi",
+            "EXPLANATION": "Oylama isteğe bağlı, ancak Solar ağı güvende tutan önemli bir mekanizmadır. Ağdan en çok oyu alan {delegeler} delegeler, işlemleri doğrulamaktan ve yeni bloklara dönüştürmekten sorumludur. Bu sayfa oyunuzu kullanmak için kullanılabilir. Desteklediğiniz bir delege için. Aşağıdaki bağlantıya tıklayarak bir delegeye oy verme hakkında daha fazla bilgi edinin:",
+            "VOTE_DELEGATE": "Oy Delegesi {delegate}",
+            "UNVOTE_DELEGATE": "Delege {delegate} oyu iptal et",
+            "CURRENTLY_VOTED": "Şu anda {delegate} için oy kullanıyorsunuz",
+            "VOTED_FOR": "Delege {delegate} için oy verdiniz",
+            "WALLET_VOTED_FOR": "Bu cüzdan {delegate} delegesine oy verdi",
+            "VOTE_INFO": "Bilgi:",
+            "NO_VOTE": "Bu cüzdan oylama yapmıyor. Daha fazla bilgi görüntülemek ve oy kullanmak için aramayı kullanın veya herhangi bir delegeye tıklayın",
+            "AWAITING_VOTE_CONFIRMATION": "{type} onayınızı bekliyor",
+            "LOADING_VOTE": "Oy ayrıntıları yükleniyor...",
+            "SEARCH_DELEGATE": "Delege ara"
+        },
+        "WALLET_IPFS": {
+            "HEADER": "IPFS Hash",
+            "DESCRIPTION": "Ağda bir IPFS Hash depolayın",
+            "BUTTON_STORE_HASH": "Hash Depola",
+            "MESSAGE": "IPFS Hash",
+            "SIGNATURE": "IPFS Hash",
+            "HASH": "Hash",
+            "HASH_ERROR": "IPFS Hash geçerli bir HASH değil"
+        },
+        "WALLET_MULTI_SIGNATURE": {
+            "HEADER": "Çoklu imza",
+            "DESCRIPTION": "İmzanızı gerektiren bekleyen işlemler",
+            "BUTTON_SET_PEER": "Eş Ayarla"
+        },
+        "WALLET_GRID": {
+            "LOADING_LEDGER": "Ledger cüzdanları yükleniyor..."
+        },
+        "WALLET_RENAME": {
+            "TITLE": "Cüzdanı yeniden adlandırın",
+            "TITLE_ADD": "Cüzdan ekle",
+            "NEW": "Yeni cüzdan adı",
+            "ADD": "Cüzdan ekle",
+            "RENAME": "Cüzdanı yeniden adlandır",
+            "ADDRESS_INFO": "Bu cüzdan için bir ad belirleyin: ",
+            "ERROR_LEDGER": "Ledger cüzdanı yeniden adlandırılamadı: {error}"
+        },
+        "CONTACT_RENAME": {
+            "TITLE": "Kişiyi yeniden adlandır",
+            "TITLE_ADD": "Kişi ekle",
+            "NEW": "Yeni kişi adı",
+            "ADD": "Kişi ekle",
+            "RENAME": "Kişiyi yeniden adlandır",
+            "ADDRESS_INFO": "Bu kişi için bir ad belirleyin: "
+        },
+        "WALLET_REMOVAL_CONFIRMATION": {
+            "NOTE": "Blokzincir üzerindeki hiçbir veriyi silmez. Parolanız olduğu sürece cüzdanı kurtarabilirsiniz",
+            "QUESTION": "Bu cüzdanı kaldırmak istediğinizden emin misiniz?",
+            "CONTACT_QUESTION": "Bu kişiyi kaldırmak istediğinizden emin misiniz?"
+        },
+        "PLUGIN_REMOVAL_CONFIRMATION": {
+            "NOTE": "Bu eklentiyi kaldırmak, onu bu sistemdeki tüm profillerden kaldıracaktır",
+            "QUESTION": "'{plugin}' öğesini kaldırmak istediğinizden emin misiniz?",
+            "OPTIONS": {
+                "DATA": "Ayrıca tüm eklenti verileri ve ayarları silinsin mi?"
+            },
+            "SUCCESS": "'{plugin}' eklentisi kaldırıldı",
+            "ERROR": "Eklenti kaldırılamadı: {error}"
+        },
+        "PLUGIN_BLACKLIST_CONFIRMATION": {
+            "NOTE": "Eklentiyi kara listeye alarak tüm profillerde devre dışı bırakılacak ve artık Eklenti Yöneticisinde görünmeyecektir",
+            "QUESTION": "'{plugin}' öğesini kara listeye almak istiyor musunuz?"
+        },
+        "BLACKLIST_DISCLAIMER_CONFIRMATION": {
+            "QUESTION": "Kara listeyi devre dışı bırakmak istediğinizden emin misiniz?",
+            "NOTE": "Uyarı: Filtrelemeyi kapattığınızda, Solar tarafından test edilmemiş ve onaylanmamış üçüncü taraf eklentileri görüntüleyeceksiniz. Üçüncü taraf eklentinin sürdürülebilirliği, kullanılabilirliği, güvenliği konusunda açık veya zımni hiçbir garanti vermiyoruz. Bu üçüncü taraf eklentilerin herhangi birinin görüntülenmesi, yüklenmesi veya çalıştırılması sonucunda sunulan içeriğin hiçbirinden sorumlu değiliz. Solar, üçüncü taraf eklentilerin kullanılmasından kaynaklanan herhangi bir kayıptan sorumlu tutulamaz. \"Kabul ediyorum\"u tıklayarak, doğrulanmamış üçüncü taraf eklentilerinin hatalar, aksaklıklar, işlevsellik eksikliği olabileceğini veya makinenize zarar verebileceğini veya veri kaybına neden olabileceğini kabul etmiş olursunuz.",
+            "ACCEPT": "Kabul Ediyorum",
+            "CANCEL": "İptal"
+        },
+        "WALLET_TRANSACTIONS": {
+            "TRANSACTION_ID": "İşlem Kimliği",
+            "RECIPIENT": "Alıcı",
+            "SENDER": "Gönderici",
+            "AMOUNT": "Tutar",
+            "NEW_TRANSACTIONS": "0 | Bu cüzdanda 1 yeni işlem var. Güncellemek için yenile düğmesine basın. | Bu cüzdanda {count} yeni işlem var. Güncellemek için yenile düğmesine basın."
+        },
+        "WALLET_TABLE": {
+            "ACTIONS": "Eylemler",
+            "DELETE": "Sil",
+            "NO_DELETE": "Ledger cüzdanları silinemez",
+            "RENAME": "Adını değiştir"
+        }
+    }
+}
