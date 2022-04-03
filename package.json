@@ -1,6 +1,6 @@
 {
   "name": "@mtaylan/turkish-language-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Turkish Language Pack for the Solar Desktop Wallet",
   "main": "src/index.js",
   "author": "mtaylan <mtaylan@mtaylan.com>",
@@ -21,6 +21,7 @@
     "language",
     "translations",
     "@solar-network",
+    "@arkecosystem",
     "desktop-wallet",
     "plugin"
   ],
