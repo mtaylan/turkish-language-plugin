@@ -44,7 +44,7 @@
             "DATE": "Tarih",
             "DELEGATE": "Delege",
             "DESKTOP_WALLET": "Masaüstü Cüzdanı",
-            "DONE": "Yapıldı",
+            "DONE": "Tamamlandı",
             "ENABLE_ADVANCED_MODE": "Bu özelliği kullanmak için Gelişmiş Modu etkinleştirin",
             "FAILED_UPDATE": "Güncellenemedi '{name}'. Sebep: {reason}",
             "FAILED_FETCH": "Getirilemedi {name}. Sebep: '{msg}'.",
@@ -53,10 +53,10 @@
             "FINISH": "Bitir",
             "HIDE_WALLET_BUTTON_TEXT": "Cüzdan düğmelerindeki metni gizle",
             "INITIALIZING": "Başlatılıyor...",
-            "NO_INTERNET_CONNECTION": "Initialization is taking longer than expected. Please check your internet connectivity.",
+            "NO_INTERNET_CONNECTION": "Başlatma işlemi beklenenden daha uzun sürüyor. Lütfen internet bağlantınızı kontrol edin.",
             "INTERNET_STATUS": {
-                "NO_INTERNET_CONNECTION": "No internet connection. Please check your internet connectivity!",
-                "WITH_INTERNET_CONNECTION": "Internet connectivity established!"
+                "NO_INTERNET_CONNECTION": "İnternet bağlantısı yok. Lütfen internet bağlantınızı kontrol edin!",
+                "WITH_INTERNET_CONNECTION": "İnternet bağlantısı kuruldu!"
             },
             "IS_MARKET_CHART_ENABLED": "Kontrol panelindeki fiyat tablosu",
             "LANGUAGE": "Uygulama Dili",
@@ -353,7 +353,7 @@
         },
         "BUTTON_CLIPBOARD": {
             "DONE": "Kopyalandı!",
-            "COPY_TO_CLIPBOARD": "{0} öğesini panoya kopyala",
+            "COPY_TO_CLIPBOARD": "'{0}' öğesini panoya kopyala",
             "NOT_SUPPORTED": "Panoya kopyalama desteklenmiyor"
         },
         "INPUT_ADDRESS": {
