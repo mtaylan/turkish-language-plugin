@@ -1,6 +1,6 @@
 {
   "name": "@mtaylan/turkish-language-plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Turkish Language Pack for the Solar Desktop Wallet",
   "main": "src/index.js",
   "author": "mtaylan <mtaylan@mtaylan.com>",
