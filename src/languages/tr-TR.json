@@ -1098,7 +1098,7 @@
             "PUBLIC_KEY": "Gönderenin Genel anahtarı",
             "SIGNATURE": "İmza",
             "JSON_MESSAGE": "İmzalı (JSON) mesaj içeriği",
-            "FORMAT_FOOTER": "Format (JSON): { \"PublicKEY\": \"...\", \"signature\": \"...\", \"message\": \"...\" }",
+            "FORMAT_FOOTER": "Format (JSON): { \"publickey\": \"...\", \"signature\": \"...\", \"message\": \"...\" }",
             "VERIFIED": "Mesaj başarıyla doğrulandı",
             "NOT_VERIFIED": "Mesaj doğrulanmadı",
             "CONFIRMATION": "Onay",
