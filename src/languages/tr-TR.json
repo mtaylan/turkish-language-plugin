@@ -44,7 +44,7 @@
             "DATE": "Tarih",
             "DELEGATE": "Delege",
             "DESKTOP_WALLET": "Masaüstü Cüzdanı",
-            "DONE": "Tamamlandı",
+            "DONE": "Tamam",
             "ENABLE_ADVANCED_MODE": "Bu özelliği kullanmak için Gelişmiş Modu etkinleştirin",
             "FAILED_UPDATE": "Güncellenemedi '{name}'. Sebep: {reason}",
             "FAILED_FETCH": "Getirilemedi {name}. Sebep: '{msg}'.",
@@ -131,7 +131,7 @@
                 },
                 "BACKUP": {
                     "ALWAYS": "Parolanızı her zaman yedekleyin ve güvenli bir yerde saklayın.",
-                    "OPTIONS": "Kalın kağıda yazabilir ve birden çok kopyasını güvenli yerlerde saklayabilirsiniz. Ayrıca şifreli bir flash sürücüde de saklayabilirsiniz. Alternatif olarak, fonlarınızı ve Solar Masaüstü Cüzdanını depolamak ve bunlara erişmek için Ledger.com'da bulunan bir Ledger Nano S veya Nano X USB donanım cihazı kullanabilirsiniz. Ledger Nano S veya Nano X'inizi bilgisayarınıza bağlayabilir ve parolanızı girmenize gerek kalmadan Solar blok zincirine erişebilirsiniz."
+                    "OPTIONS": "Kalın kağıda yazabilir ve birden çok kopyasını güvenli yerlerde saklayabilirsiniz. Ayrıca şifreli bir flash sürücüde de saklayabilirsiniz. Alternatif olarak, fonlarınızı ve Solar Masaüstü Cüzdanını depolamak ve bunlara erişmek için Ledger.com'da bulunan bir Ledger Nano S, Nano S Plus  veya Nano X USB donanım cihazı kullanabilirsiniz. Ledger Nano S veya Nano X'inizi bilgisayarınıza bağlayabilir ve parolanızı girmenize gerek kalmadan Solar blok zincirine erişebilirsiniz."
                 },
                 "REMEMBER": "Unutmayın, parolanıza sahip olan herkes paranıza erişebilir. Hesabınızı asla kimseyle paylaşmayın ve bulut gibi saldırıya açık yerlerde saklamaktan kaçının."
             },
@@ -190,6 +190,7 @@
             "INVALID_PORT": "Geçersiz Port Numarası",
             "INVALID_FORMAT": "Geçersiz format",
             "INVALID_TYPE": "Geçersiz tip",
+            "MAX_LENGTH_CHARACTERS": "Maksimum {0} karakter",
             "MAX_LENGTH": "Max {0}",
             "MIN_LENGTH": "Min {0}",
             "MUST_BE_GREATER_THAN": "{0}'den büyük olmalıdır",
@@ -421,8 +422,8 @@
         },
         "MODAL_ADDITIONAL_LEDGERS": {
             "CANCEL": "İptal",
-            "INFO": "Göstermek istediğiniz maksimum Ledger cüzdan miktarını seçin. Şu anda {quantity} cüzdan gösteriyorsunuz.",
-            "LARGE_QUANTITY": "Çok sayıda cüzdan yüklemeye çalışıyorsunuz. Bu, yavaş yüklemeye veya cihazın zaman aşımına uğramasına neden olabilir.",
+            "INFO": "Göstermek istediğiniz toplam Ledger cüzdan miktarını seçin. Şu anda {quantity} cüzdan gösteriyorsunuz.",
+            "LARGE_QUANTITY": "Çok sayıda cüzdan göstermeye çalışıyorsunuz. Paranız güvende kalacak olsa da uygulamanın performansı ve ağ bağlantısı etkilenebilir",
             "LOAD": "Cüzdan Yükle",
             "QUANTITY": "Miktar",
             "TITLE": "Ek Ledger Cüzdanını Yükleyin"
@@ -928,7 +929,7 @@
                 "MULTI_SIGN": "Çoklu İmza İşlemi",
                 "MULTI_SIGNATURE": "Çoklu imza",
                 "IPFS": "IPFS",
-                "MULTI_PAYMENT": "Çoklu ödeme",
+                "MULTI_PAYMENT": "Transfer",
                 "DELEGATE_RESIGNATION": "Delege İstifası",
                 "HTLC_LOCK": "Zaman kilidi",
                 "HTLC_CLAIM": "Zaman Kilidi Talebi",
@@ -942,21 +943,21 @@
                     "VOTE": "Oy işlemi oluşturulamadı",
                     "MULTI_SIGN": "Çok imzalı işlem yapılamadı",
                     "MULTI_SIGNATURE": "Çoklu imza işlemi oluşturulamadı",
-                    "MULTI_PAYMENT": "Çoklu ödeme işlemi oluşturulamadı",
+                    "MULTI_PAYMENT": "Transfer işlemi oluşturulamadı",
                     "IPFS": "IPFS işlemi oluşturulamadı"
                 },
                 "TRANSFER": "İşleminiz gönderilemedi",
                 "SECOND_SIGNATURE": "İkinci imza kaydedilemedi",
                 "DELEGATE_REGISTRATION": "İkinci imza kaydedilemedi",
                 "VOTE": "Oy kaydedilemedi",
-                "UNVOTE": "Oy iptali kaydedilemedi",
+                "UNVOTE": "Oy kaydedilemedi",
                 "IPFS": "IPFS oluşturulamadı",
                 "MULTI_SIGN": "İşlem imzalanamadı",
                 "MULTI_SIGNATURE": "Çoklu imza oluşturulamadı",
                 "HTLC_LOCK": "Zaman kilidi oluşturulamadı",
                 "HTLC_CLAIM": "Zaman Kilidi Talebi oluşturulamadı",
                 "HTLC_REFUND": "Zaman Kilidi Geri Ödemesi oluşturulamadı",
-                "MULTI_PAYMENT": "Çoklu ödeme oluşturulamadı",
+                "MULTI_PAYMENT": "İşleminiz oluşturulamadı",
                 "MULTI_PAYMENT_TO_SELF": "Kendisine gönderilen {amount} hariç",
                 "DELEGATE_RESIGNATION": "Delege istifası başarısız oldu",
                 "SAVE_OFFLINE": "İşlem dosyası kaydedilemedi: {error}",
@@ -972,7 +973,9 @@
             },
             "FOOTER_TEXT": {
                 "DELEGATE_REGISTRATION": "Kayıt blok zincirine kaydedildikten sonra delegenizin adını değiştiremeyeceğinizi unutmayın.",
-                "DELEGATE_RESIGNATION": "İstifa blok zincirine kaydedildikten sonra delegenizi geri yükleyemeyeceğinizi unutmayın."
+                "DELEGATE_RESIGNATION_TEMPORARY": "Bu istifanın gelecekte iptal edilebileceğini unutmayın.",
+                "DELEGATE_RESIGNATION_PERMANENT": "İstifa blokzincirine kaydedildikten sonra Delegenizi geri yükleyemeyeceğinizi unutmayın.",
+                "DELEGATE_RESIGNATION__REVOKE": "Bunun, delegenizin bir sonraki turdan itibaren sıralamasını geri getireceğini unutmayın."
             },
             "INFO": {
                 "BROADCASTING": "İşleminiz ağa yayınlanıyor",
@@ -990,14 +993,20 @@
                 "HTLC_LOCK": "Zaman kilidi başarıyla oluşturuldu",
                 "HTLC_CLAIM": "Zaman Kilidi Talebi başarıyla oluşturuld",
                 "HTLC_REFUND": "Zaman Kilidi Geri Ödemesi başarıyla oluşturuldu",
-                "MULTI_PAYMENT": "Çoklu ödeme başarıyla oluşturuldu",
+                "MULTI_PAYMENT": "İşleminiz başarıyla oluşturuldu",
                 "DELEGATE_RESIGNATION": "Delege istifası başarılı oldu",
                 "SAVE_OFFLINE": "İşlem dosyası başarıyla şuraya kaydedildi: {path}",
                 "LOAD_FROM_FILE": "İşlem dosyası başarıyla yüklendi"
+             },
+            "DELEGATE_RESIGNATION": {
+            "TEMPORARY": "Geçici İstifa",
+            "REVOKE": "İstifayı İptal Et",
+            "PERMANENT": "Kalıcı İstifa"
+
             },
             "VOTE": {
-                "VOTE_DELEGATE": "Yetkili {delegate} için oy verin",
-                "UNVOTE_DELEGATE": "Yetkili {delegate} oyu iptal et"
+                "VOTE_DELEGATE": "Delege {delegate} için oy verin",
+                "UNVOTE_DELEGATE": "Delege {delegate} için oyu iptal et"
             },
             "MULTI_PAYMENT": {
                 "TOTAL_AMOUNT": "Toplam tutare",
@@ -1064,6 +1073,7 @@
             "NONCE": "Nonce",
             "NO_RECIPIENTS": "Alıcı yok",
             "OPEN_IN_EXPLORER": "Explorer'da Aç",
+            "OPTINAL": "(isteğe bağlı)",
             "PASSPHRASE": "Anahtar kelimeler",
             "PASSWORD": "Şifreleme Şifresi",
             "RECIPIENT": "Alıcı",
@@ -1082,7 +1092,8 @@
             "TIMESTAMP": "Zaman Damgası",
             "TRANSACTION": "İşlem",
             "USERNAME": "Kullanıcı adı",
-            "VENDOR_FIELD": "Akıllı Köprü",
+            "VENDOR_FIELD": "Memo",
+            "VOTES": "Oylar",
             "WELL_CONFIRMED": "İyi Onaylandı",
             "WELL_CONFIRMED_COUNT": "İyi Onaylandı ({confirmations} onaylar)"
         },
@@ -1110,16 +1121,17 @@
         },
         "SYNCHRONIZER": {
             "GROUP_1": {
+                "CANCELLED_VOTE": "İptal edilen oylama: {address} oylamayı durdurdu.",
                 "VOTE": "oy verildi",
-                "UNVOTE": "oy verilmemiş",
+                "UNVOTE": "için iptal edilen oylama",
                 "NEW_SECOND_SIGNATURE": "eni ikinci imza: {address}",
                 "NEW_DELEGATE_REGISTRATION": "Yeni delege: {address}, {username} olarak kaydedildi",
                 "NEW_VOTE": "Yeni oy: {address} {voteUnvote} {publicKey}",
                 "NEW_MULTI_SIGNATURE": "Yeni çoklu imza kaydı: {address}",
                 "NEW_IPFS": "Yeni IPFS hash: {address}",
-                "NEW_MULTI_PAYMENT_SENT": "Yeni çoklu ödeme: {sender}'dan {recipient}'a {amount} gönderildi",
-                "NEW_MULTI_PAYMENT_RECEIVED": "Yeni çoklu ödeme: {sender}'dan {recipient}'e {amount} alındı",
-                "NEW_DELEGATE_RESIGNATION": "Yeni delege istifası: {address}, {username} olarak kaydedildi",
+                "NEW_MULTI_PAYMENT_SENT": "Yeni transfer: {sender}'dan {recipient}'a {amount} gönderildi",
+                "NEW_MULTI_PAYMENT_RECEIVED": "Yeni transfer: {sender}'dan {recipient}'e {amount} alındı",
+                "NEW_DELEGATE_RESIGNATION": "Yeni delege istifası: {address}",
                 "NEW_TRANSFER_SENT": "Yeni transfer: {sender}'dan {recipient}'e {amount} gönderildi",
                 "NEW_TRANSFER_RECEIVED": "Yeni transfer: {sender}'dan {recipient}'e {amount} alındı"
             }
@@ -1138,7 +1150,9 @@
                 "CONTACT_NAME": "Kişi Adı",
                 "REGISTER_MULTISIGNATURE": "Çoklu İmzayı Kaydet",
                 "REGISTER_DELEGATE": "Delege Kaydı",
-                "RESIGN_DELEGATE": "Delegasyondan Ayrıl",
+                "RESIGN_DELEGATE_REVOKE": "Geçici Delege İstifasını İptal Et",
+                "RESIGN_DELEGATE_TEMPORARY": "Geçici Olarak Delegelikten Ayrıl",
+                "RESIGN_DELEGATE_PERMANENT": "Delegelikten Kalıcı Olarak Ayrıl",
                 "SECOND_PASSPHRASE": "İkinci Parola",
                 "DELETE_CONTACT": "Kişiyi Sil",
                 "DELETE_WALLET": "Cüzdanı Sil",
@@ -1201,15 +1215,15 @@
             "ALREADY_REGISTERED": "Bu cüzdan zaten bir delege olarak kayıtlı",
             "NOT_REGISTERED": "Bu cüzdan bir delege olarak kayıtlı değil",
             "BLOG": "Oylama Rehberi",
-            "EXPLANATION": "Oylama isteğe bağlı, ancak Solar ağı güvende tutan önemli bir mekanizmadır. Ağdan en çok oyu alan {delegeler} delegeler, işlemleri doğrulamaktan ve yeni bloklara dönüştürmekten sorumludur. Bu sayfa oyunuzu kullanmak için kullanılabilir. Desteklediğiniz bir delege için. Aşağıdaki bağlantıya tıklayarak bir delegeye oy verme hakkında daha fazla bilgi edinin:",
-            "VOTE_DELEGATE": "Oy Delegesi {delegate}",
-            "UNVOTE_DELEGATE": "Delege {delegate} oyu iptal et",
+            "EXPLANATION": "Oylama isteğe bağlı, ancak Solar ağı güvende tutan önemli bir mekanizmadır. Ağdan en çok oyu alan {delegeler} delegeler, işlemleri doğrulamaktan ve yeni bloklara dönüştürmekten sorumludur. Bu sayfada desteklediğiniz bir delege için oyunuzu kullanabilirsiniz. Aşağıdaki bağlantıya tıklayarak bir delegeye oy verme hakkında daha fazla bilgi edinin:",
+            "VOTE_DELEGATE": "{delegate} için OY ver",
+            "UNVOTE_DELEGATE": "Oyu iptal et",
             "CURRENTLY_VOTED": "Şu anda {delegate} için oy kullanıyorsunuz",
             "VOTED_FOR": "Delege {delegate} için oy verdiniz",
             "WALLET_VOTED_FOR": "Bu cüzdan {delegate} delegesine oy verdi",
             "VOTE_INFO": "Bilgi:",
             "NO_VOTE": "Bu cüzdan oylama yapmıyor. Daha fazla bilgi görüntülemek ve oy kullanmak için aramayı kullanın veya herhangi bir delegeye tıklayın",
-            "AWAITING_VOTE_CONFIRMATION": "{type} onayınızı bekliyor",
+            "AWAITING_VOTE_CONFIRMATION": "İşleminiz onay bekliyor",
             "LOADING_VOTE": "Oy ayrıntıları yükleniyor...",
             "SEARCH_DELEGATE": "Delege ara"
         },
