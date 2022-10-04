@@ -879,7 +879,9 @@
             "WALLET_SHOW": {
                 "NO_VOTE": "Cüzdan oylama yapmadı",
                 "ADD_CONTACT": "Kişilere ekle",
-                "VOTING_FOR": "{delegate} için oylama"
+                "VOTING_FOR": "Delege {n} için oy verildi.",
+		"VOTING_FOR_MULTIPLE": "{n} Delege için oy verildi.",
+		"VOTING_FOR_SHORT": "{n} Delege"
             }
         },
         "PLUGIN_TABLE": {
@@ -1219,13 +1221,15 @@
             "VOTE_DELEGATE": "{delegate} için OY ver",
             "UNVOTE_DELEGATE": "Oyu iptal et",
             "CURRENTLY_VOTED": "Şu anda {delegate} için oy kullanıyorsunuz",
-            "VOTED_FOR": "Delege {delegate} için oy verdiniz",
+            "VOTED_FOR": "Toplam Oylanan: {delegate}%",
             "WALLET_VOTED_FOR": "Bu cüzdan {delegate} delegesine oy verdi",
             "VOTE_INFO": "Bilgi:",
             "NO_VOTE": "Bu cüzdan oylama yapmıyor. Daha fazla bilgi görüntülemek ve oy kullanmak için aramayı kullanın veya herhangi bir delegeye tıklayın",
             "AWAITING_VOTE_CONFIRMATION": "İşleminiz onay bekliyor",
             "LOADING_VOTE": "Oy ayrıntıları yükleniyor...",
-            "SEARCH_DELEGATE": "Delege ara"
+            "SEARCH_DELEGATE": "Delege ara",
+	    "TOTAL_REMAINING": "Kalan OY: {percentage}%",
+	    "NUMBER_OF_DELEGATES_VOTED": "OYLAR: {n}"
         },
         "WALLET_IPFS": {
             "HEADER": "IPFS Hash",
