@@ -31,7 +31,7 @@
             "ADDRESS": "Adres",
             "ALL": "Hepsi",
             "APP_NAME": "Solar Masaüstü Cüzdanı",
-            "APP_NAME_SHORT": "Solar Masaüstü",
+            "APP_NAME_SHORT": "Solar Cüzdan",
             "APPEARANCE": "Görünüm",
             "AVATAR": "Avatar",
             "BACK": "Geri",
@@ -416,6 +416,14 @@
             "ERROR": {
                 "NOT_VALID": "Genel anahtar geçerli değil"
             }
+        },
+        "INPUT_TOGGLE": {
+            "ADVANCED": "Gelişmiş",
+            "BASIC": "Temel",
+            "MULTIPLE": "Çoklu",
+            "SINGLE": "Tek",
+            "VERIFY": "Doğrula",
+            "VERIFY_TEXT": "Metni doğrula"
         },
         "WALLET_SELECTION": {
             "PROFILE": "Gönderen Profili",
@@ -1013,7 +1021,8 @@
             },
             "MULTI_PAYMENT": {
                 "TOTAL_AMOUNT": "Toplam tutare",
-                "WARNING_DUPLICATE": "Adres zaten bir alıcı"
+                "WARNING_DUPLICATE": "Adres zaten bir alıcı",
+                "TOOLTIP": "Çoklu alıcılı işlem, bir işlemde {0} alıcıya kadar izin verir."
             },
             "MULTI_SIGNATURE": {
                 "ADDRESS": "Çoklu İmza Adresi",
@@ -1140,8 +1149,9 @@
             }
         },
         "TRANSACTION_FORM": {
+            "TRANSFER_SUBTITLE": "Tek veya Çoklu Alıcı İşlemi Seçin",
             "ERROR": {
-                "NOT_ENOUGH_BALANCE": "Yeni transfer: {sender}'dan {recipient}'e {amount} alındı"
+                "NOT_ENOUGH_BALANCE": "Bakiye çok düşük ({balance})"
             }
         },
         "TRANSACTION_DETAIL": {
