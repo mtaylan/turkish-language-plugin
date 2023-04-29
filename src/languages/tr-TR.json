@@ -1239,7 +1239,8 @@
             "LOADING_VOTE": "Oy ayrıntıları yükleniyor...",
             "SEARCH_BLOCK_PRODUCER": "Blok Üretici ara",
             "TOTAL_REMAINING": "Kalan OY: {percentage}%",
-            "NUMBER_OF_BLOCK_PRODUCERS_VOTED": "OYLAR: {n}"
+            "NUMBER_OF_BLOCK_PRODUCERS_VOTED": "OYLAR: {n}",
+            "OFFLINE": "Çevrimdışı - devam etmek için oyları kaldırın"
         },
         "WALLET_IPFS": {
             "HEADER": "IPFS Hash",
