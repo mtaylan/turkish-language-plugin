@@ -1,7 +1,7 @@
 {
   "name": "@mtaylan/turkish-language-plugin",
-  "version": "1.0.11",
-  "description": "Turkish Language Pack for the Solar Desktop Wallet",
+  "version": "1.0.12",
+  "description": "SOLAR Masaüstü Cüzdan için Türkçe Dil Eklentisi",
   "main": "src/index.js",
   "author": "mtaylan <mtaylan@mtaylan.com>",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "permissions": [
       "LANGUAGES"
     ],
-    "minimumVersion": "2.9.17"
+    "minimumVersion": "2.9.18"
   },
   "keywords": [
     "turkish",
