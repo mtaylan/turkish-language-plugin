@@ -781,6 +781,7 @@
                 "IPFS": "IPFS",
                 "MULTI_SIGNATURE": "Çoklu-İmza",
                 "MULTI_SIGNATURE_WALLET": "Çoklu imzalı cüzdan",
+                "LEDGER_VERIFY": "Adres Doğrulama",
                 "STATISTICS": "İstatistikler",
                 "SIGN_VERIFY": "İmzala",
                 "PURCHASE": "Satın alma {ticker}"
@@ -1241,6 +1242,16 @@
             "TOTAL_REMAINING": "Kalan OY: {percentage}%",
             "NUMBER_OF_BLOCK_PRODUCERS_VOTED": "OYLAR: {n}",
             "OFFLINE": "Çevrimdışı - devam etmek için oyları kaldırın"
+        },
+        "WALLET_ADDRESS_VERIFY": {
+            "HEADER": "Adres Doğrulama",
+            "DESCRIPTION": "LEDGER Cüzdan Adresinizi Doğrulayın",
+            "REVIEW": "Ledger cihazınızda görüntülenen adresi gözden geçirin.",
+            "MATCH": "Aşağıdaki adresle tam olarak eşleşmelidir:",
+            "BUTTON_VERIFY": "Doğrula",
+            "CONFIRM_FOOTER_MESSAGE": "Ledger cihazınızı kullanarak onaylayın veya reddedin",
+            "CONFIRM_FOOTER_SUCCESS": "Ledger adresiniz doğrulandı!",
+            "CONFIRM_FOOTER_FAILED": "Doğrulama başarısız oldu!"
         },
         "WALLET_IPFS": {
             "HEADER": "IPFS Hash",
