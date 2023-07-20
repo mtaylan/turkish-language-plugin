@@ -1,6 +1,6 @@
 {
   "name": "@mtaylan/turkish-language-plugin",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "SOLAR Masaüstü Cüzdan için Türkçe Dil Eklentisi",
   "main": "src/index.js",
   "author": "mtaylan <mtaylan@mtaylan.com>",
@@ -14,7 +14,7 @@
     "permissions": [
       "LANGUAGES"
     ],
-    "minimumVersion": "2.9.18"
+    "minimumVersion": "2.9.19"
   },
   "keywords": [
     "turkish",
